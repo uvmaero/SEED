@@ -70,31 +70,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "BMS1.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 0,
-          "pos_y": 25,
-          "size_x": 1440,
-          "size_y": 823
-        }
-      },
-      {
-        "name": "BMS1.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 744,
-          "pos_y": 25,
-          "size_x": 1440,
-          "size_y": 823
-        }
-      }
-    ]
+    "files": []
   }
 }

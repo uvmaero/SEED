@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BMS1.kicad_pro",
+    "filename": "MainBMS.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -312,18 +312,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
-    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/AERO_temp.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -334,7 +324,7 @@
   },
   "sheets": [
     [
-      "03933f33-7fdb-43de-9d7d-a565cad8a277",
+      "95063733-046c-4e1c-a35a-361882a302a2",
       ""
     ]
   ],

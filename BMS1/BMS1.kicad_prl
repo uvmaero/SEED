@@ -3,10 +3,12 @@
     "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
+    "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -69,19 +71,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "BMS1.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 298,
-          "pos_y": 25,
-          "size_x": 1440,
-          "size_y": 875
-        }
-      }
-    ]
+    "files": []
   }
 }

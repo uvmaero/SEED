@@ -5964,31 +5964,6 @@
     )
   )
 
-  (symbol (lib_id "power:VDC") (at 37.719 93.472 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 47b25470-65f9-4b09-bb28-75c071f9b989)
-    (property "Reference" "#PWR050" (at 37.719 96.012 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDC" (at 37.719 87.884 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 37.719 93.472 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 37.719 93.472 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 82ba518f-1f9d-48ce-9b40-0d70d4e5d2bd))
-    (instances
-      (project "BMS1"
-        (path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_US") (at 34.671 65.913 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47bccf9e-81f4-4228-8441-29d66d14f48f)
@@ -6822,31 +6797,6 @@
     )
   )
 
-  (symbol (lib_id "power:VDC") (at 41.91 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8d574614-8ced-4804-b38f-c45cd65e028f)
-    (property "Reference" "#PWR051" (at 41.91 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDC" (at 41.91 69.342 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 41.91 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 41.91 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f6528876-4fca-43f8-971c-c63baf711f46))
-    (instances
-      (project "BMS1"
-        (path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
-          (reference "#PWR051") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND1") (at 221.107 164.084 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 909f3aa1-9ec4-4517-a941-2c5746838030)
@@ -7125,6 +7075,31 @@
       (project "BMS1"
         (path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
           (reference "L12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VDD") (at 41.91 74.93 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a1c0483f-dd88-488e-9db9-509002805b6e)
+    (property "Reference" "#PWR051" (at 41.91 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 41.91 69.596 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 41.91 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 41.91 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fcb6c1eb-287b-458c-9e68-36de41f6fca1))
+    (instances
+      (project "BMS1"
+        (path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -7848,6 +7823,31 @@
       (project "BMS1"
         (path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
           (reference "L21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VDD") (at 37.719 93.472 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dac79cdd-902f-4be8-bf57-e41c1766a8e3)
+    (property "Reference" "#PWR050" (at 37.719 97.282 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 37.719 88.138 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 37.719 93.472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 37.719 93.472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 74cdb6dc-4b52-424f-a9fb-bba5fbfb07ff))
+    (instances
+      (project "BMS1"
+        (path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
+          (reference "#PWR050") (unit 1)
         )
       )
     )

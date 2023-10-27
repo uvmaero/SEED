@@ -490,20 +490,7 @@
     "netclass_assignments": {
       "/BatteryBus1.C15": "Cell Sense"
     },
-    "netclass_patterns": [
-      {
-        "netclass": "Cell Balence",
-        "pattern": "/BatteryBus*.S*"
-      },
-      {
-        "netclass": "Temp Sense",
-        "pattern": "/C*"
-      },
-      {
-        "netclass": "Cell Sense",
-        "pattern": "/BatteryBus*.C*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

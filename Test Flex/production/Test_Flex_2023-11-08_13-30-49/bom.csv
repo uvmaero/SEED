@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"B1, B2, B3",VTC-6,3,VTC6+T,
+"D1, D2",0603,2,LED,
+J1,JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical,1,Conn_01x02,
+J2,JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal,1,Conn_01x02,
+"R1, R2",0603,2,R_US,
+"U1_4, U1_3, U1_2, U1",TSSOP-16_4.4x5mm_P0.65mm,4,ADG728,

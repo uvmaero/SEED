@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.6
         }
       },
       "diff_pair_dimensions": [
@@ -86,8 +86,8 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
-        "missing_footprint": "warning",
-        "net_conflict": "warning",
+        "missing_footprint": "error",
+        "net_conflict": "error",
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
@@ -97,17 +97,17 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -138,16 +138,16 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
+          "td_on_pad_in_zone": true,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -156,7 +156,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -165,7 +165,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -464,6 +464,23 @@
         "name": "Cell Sense",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.6,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -512,8 +529,12 @@
         "pattern": "*CT*"
       },
       {
-        "netclass": "Cell Balence",
+        "netclass": "Cell Sense",
         "pattern": "Net-(B*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND*"
       }
     ]
   },

@@ -509,7 +509,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/BatteryBus1.C14": "Cell Sense"
+      "/BatteryBus1.C13": "Cell Sense"
     },
     "netclass_patterns": [
       {

@@ -1,0 +1,24 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+"B1, B10, B11, B12, B13, B14, B15, B16, B17, B18, B19, B2, B20, B21, B22, B23, B24, B25, B3, B4, B5, B6, B7, B8, B9",25,VTC6+T,VTC-6,,tht
+"C1, C15, C16, C17, C18, C19, C2, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C3, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C4, C5, C6, C7, C8",33,15u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"C10, C9",2,10nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,smt
+"C11, C12",2,1uf,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"C13, C14",2,100nf,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"D1, D2",2,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,smt
+J1,1,Conn_01x02,JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal,,tht
+"J2, J3",2,Conn_01x02,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,,tht
+"L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L2, L20, L21, L23, L24, L25, L26, L27, L28, L29, L3, L30, L31, L32, L4, L7, L8, L9",28,L_Ferrite_Small,L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,smt
+"Q1, Q2",2,Q_NPN_BCE,DXT5551P5-13_DIO,,smt
+"R1, R10, R11, R2, R5, R6",6,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R12, R7",2,1M,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R13,1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,smt
+"R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R52, R53, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66",27,10,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,smt
+"R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R67, R68, R69, R70, R71, R72, R73, R74, R75, R76, R77, R78",24,18,R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,,smt
+"R3, R4, R8, R9",4,20k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R39, R54, R80",3,100,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93",25,680,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R79,1,21,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R94, R95",2,R_US,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+T1,1,ESMIT-4180_C,SOIC4_CBM4D19_SUM,,smt
+"U1, U2, U3, U4, U5, U6, U7, U8",8,ADG728,TSSOP-16_4.4x5mm_P0.65mm,,smt
+"U10, U9",2,LTC6812-1,LTC6812,,smt

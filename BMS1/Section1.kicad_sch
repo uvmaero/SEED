@@ -794,9 +794,6 @@
   (junction (at 40.259 146.304) (diameter 0) (color 0 0 0 0)
     (uuid 6c09f17f-e7cb-4882-be54-90b83ace8827)
   )
-  (junction (at 80.391 197.104) (diameter 0) (color 0 0 0 0)
-    (uuid 703edd4e-11f1-4172-96b8-c468551f5b3c)
-  )
   (junction (at 40.259 115.824) (diameter 0) (color 0 0 0 0)
     (uuid 71b3e4e9-d31f-4060-ac9c-8f7e8a477bb9)
   )
@@ -1952,10 +1949,6 @@
     (stroke (width 0) (type default))
     (uuid ebf6e0b2-42d4-41d0-97e9-d9bf7fc7b451)
   )
-  (wire (pts (xy 80.391 197.104) (xy 65.024 197.104))
-    (stroke (width 0) (type default))
-    (uuid ec874f92-2a78-45d0-9f46-fdec448b05c7)
-  )
   (wire (pts (xy 65.024 110.744) (xy 80.391 110.744))
     (stroke (width 0) (type default))
     (uuid f0837b03-9701-421a-bb82-2d339b45b9c8)
@@ -2033,6 +2026,12 @@
   (wire (pts (xy 90.043 197.104) (xy 116.586 197.104))
     (stroke (width 0) (type default))
     (uuid fed2ac6a-ff22-4d08-afe2-8f7ac992e507)
+  )
+
+  (text "Only keep + holes, delete negative wires, (except for B25)\nDelete squares on footprint (not little circled!)\npg 86, Fig 47. Use schematic on the right"
+    (at 140.462 185.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 88870f1e-e421-4239-9bf1-efe6be2aa494)
   )
 
   (label "BatteryBus.S6" (at 116.078 136.144 180) (fields_autoplaced)

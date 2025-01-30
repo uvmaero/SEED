@@ -1,0 +1,920 @@
+Info: Processing symbol 'B1:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'B2:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'B3:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'B4:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'B5:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'B6:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'C24:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C40:'.
+Info: Processing symbol 'B7:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R36:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C41:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C25:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B8:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R33:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'J3:Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'B9:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'C26:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R28:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B10:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'JP1:Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels'.
+Info: Processing symbol 'C27:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B11:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R17:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R22:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'B12:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'C28:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'B13:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'C42:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'B14:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R26:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C29:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'B15:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R32:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'C30:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B16:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R23:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R19:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B17:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'C31:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R31:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B18:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'C43:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C32:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R30:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B19:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'Q2:AERO_Footprints:DXT5551P5-13_DIO'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C33:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B20:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R24:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R20:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B21:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'C34:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'Q3:AERO_Footprints:DXT5551P5-13_DIO'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B22:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R35:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'C35:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'D1:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B23:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'C36:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B24:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'R27:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'D2:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'R29:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'C20:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'B25:AERO_Footprints:VTC-6'.
+Info: Processing symbol 'C37:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R21:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C21:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'J1:Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal'.
+Info: Processing symbol 'C38:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'C22:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C39:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C23:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'J2:Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical'.
+Info: Processing symbol 'R34:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R25:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R37:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R38:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R39:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R40:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R41:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R42:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R43:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R44:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R45:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R46:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R47:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R48:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R49:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R50:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R51:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R52:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R53:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R54:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R55:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R56:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R57:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R58:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R59:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R60:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R61:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R62:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R63:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R64:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R65:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R66:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R67:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R68:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R69:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R70:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R71:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R72:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R73:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R74:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R75:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R76:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R77:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R78:Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder'.
+Info: Processing symbol 'R79:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R80:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R81:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R82:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R83:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R84:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R85:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R86:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R87:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R88:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R89:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R90:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R91:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R92:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R93:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R94:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R95:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R96:'.
+Info: Processing symbol 'R97:'.
+Info: Processing symbol 'T1:AERO_Footprints:SOIC4_CBM4D19_SUM'.
+Info: Processing symbol 'U1:Package_SO:TSSOP-16_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'U2:Package_SO:TSSOP-16_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'U3:Package_SO:TSSOP-16_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'U4:Package_SO:TSSOP-16_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'U5:Package_SO:TSSOP-16_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'U6:Package_SO:TSSOP-16_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'U7:Package_SO:TSSOP-16_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'U8:Package_SO:TSSOP-16_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'U9:AERO_Footprints:LTC6812'.
+Info: Processing symbol 'U10:AERO_Footprints:LTC6812'.
+Updated C1 sheetname to 'Root'.
+Updated C1 footprint filters to 'C_*'.
+Changed C2 value from 15u to 0.1uF.
+Updated C2 fields.
+Updated C2 sheetname to 'Root'.
+Updated C2 footprint filters to 'C_*'.
+Changed C3 value from 15u to 0.1uF.
+Updated C3 fields.
+Updated C3 sheetname to 'Root'.
+Updated C3 footprint filters to 'C_*'.
+Changed C4 value from 15u to 0.1uF.
+Updated C4 fields.
+Updated C4 sheetname to 'Root'.
+Updated C4 footprint filters to 'C_*'.
+Changed C5 value from 15u to 0.1uF.
+Updated C5 fields.
+Updated C5 sheetname to 'Root'.
+Updated C5 footprint filters to 'C_*'.
+Changed C6 value from 15u to 0.1uF.
+Updated C6 fields.
+Updated C6 sheetname to 'Root'.
+Updated C6 footprint filters to 'C_*'.
+Changed C7 value from 15u to 0.1uF.
+Updated C7 fields.
+Updated C7 sheetname to 'Root'.
+Updated C7 footprint filters to 'C_*'.
+Changed C8 value from 15u to 0.1uF.
+Updated C8 fields.
+Updated C8 sheetname to 'Root'.
+Updated C8 footprint filters to 'C_*'.
+Updated C9 fields.
+Updated C9 sheetname to 'Root'.
+Updated C9 footprint filters to 'C_*'.
+Updated C10 fields.
+Updated C10 sheetname to 'Root'.
+Updated C10 footprint filters to 'C_*'.
+Updated C11 fields.
+Updated C11 sheetname to 'Root'.
+Updated C11 footprint filters to 'C_*'.
+Updated C12 fields.
+Updated C12 sheetname to 'Root'.
+Updated C12 footprint filters to 'C_*'.
+Updated C13 fields.
+Updated C13 sheetname to 'Root'.
+Updated C13 footprint filters to 'C_*'.
+Updated C14 fields.
+Updated C14 sheetname to 'Root'.
+Updated C14 footprint filters to 'C_*'.
+Changed C15 value from 15u to .1u.
+Updated C15 fields.
+Updated C15 footprint filters to 'C_*'.
+Changed C16 value from 15u to .1u.
+Updated C16 fields.
+Updated C16 footprint filters to 'C_*'.
+Changed C17 value from 15u to .1u.
+Updated C17 fields.
+Updated C17 footprint filters to 'C_*'.
+Changed C18 value from 15u to .1u.
+Updated C18 fields.
+Updated C18 footprint filters to 'C_*'.
+Changed C19 value from 15u to .1u.
+Updated C19 fields.
+Updated C19 footprint filters to 'C_*'.
+Changed C20 value from 15u to .1u.
+Updated C20 fields.
+Updated C20 footprint filters to 'C_*'.
+Changed C21 value from 15u to .1u.
+Updated C21 fields.
+Updated C21 footprint filters to 'C_*'.
+Changed C22 value from 15u to .1u.
+Updated C22 fields.
+Updated C22 footprint filters to 'C_*'.
+Changed C23 value from 15u to .1u.
+Updated C23 fields.
+Updated C23 footprint filters to 'C_*'.
+Changed C24 value from 15u to .1u.
+Updated C24 fields.
+Updated C24 footprint filters to 'C_*'.
+Changed C25 value from 15u to .1u.
+Updated C25 fields.
+Updated C25 footprint filters to 'C_*'.
+Changed C26 value from 15u to .1u.
+Updated C26 fields.
+Updated C26 footprint filters to 'C_*'.
+Changed C27 value from 15u to .1u.
+Updated C27 fields.
+Updated C27 footprint filters to 'C_*'.
+Changed C28 value from 15u to .1u.
+Updated C28 fields.
+Updated C28 footprint filters to 'C_*'.
+Changed C29 value from 15u to .1u.
+Updated C29 fields.
+Updated C29 footprint filters to 'C_*'.
+Changed C30 value from 15u to .1u.
+Updated C30 fields.
+Updated C30 footprint filters to 'C_*'.
+Changed C31 value from 15u to .1u.
+Updated C31 fields.
+Updated C31 footprint filters to 'C_*'.
+Changed C32 value from 15u to .1u.
+Updated C32 fields.
+Updated C32 footprint filters to 'C_*'.
+Changed C33 value from 15u to .1u.
+Updated C33 fields.
+Updated C33 footprint filters to 'C_*'.
+Changed C34 value from 15u to .1u.
+Updated C34 fields.
+Updated C34 footprint filters to 'C_*'.
+Changed C35 value from 15u to .1u.
+Updated C35 fields.
+Updated C35 footprint filters to 'C_*'.
+Changed C36 value from 15u to 0.1u.
+Updated C36 fields.
+Updated C36 footprint filters to 'C_*'.
+Changed C37 value from 15u to .1u.
+Updated C37 fields.
+Updated C37 footprint filters to 'C_*'.
+Changed C38 value from 15u to .1u.
+Updated C38 fields.
+Updated C38 footprint filters to 'C_*'.
+Changed C39 value from 15u to .1u.
+Updated C39 fields.
+Updated C39 footprint filters to 'C_*'.
+Added C41 (footprint 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder').
+Changed REF** reference designator to C41.
+Changed C41 value from C_0603_1608Metric_Pad1.08x0.95mm_HandSolder to 1uf.
+Updated C41 symbol association from  to /a6e080b4-c958-4e11-8509-e7d845006a0a.
+Updated C41 sheetname to 'Root'.
+Updated C41 sheetfile to 'BMS1.kicad_sch'.
+Updated C41 footprint filters to 'C_*'.
+Add net Net-(U9-VREF2).
+Connected C41 pin 2 to Net-(U9-VREF2).
+Connected C41 pin 1 to GND2.
+Added C42 (footprint 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder').
+Changed REF** reference designator to C42.
+Changed C42 value from C_0603_1608Metric_Pad1.08x0.95mm_HandSolder to 1uf.
+Updated C42 symbol association from  to /daf656fa-d1d1-4473-b492-9234140c10e1.
+Updated C42 sheetname to 'Root'.
+Updated C42 sheetfile to 'BMS1.kicad_sch'.
+Updated C42 footprint filters to 'C_*'.
+Connected C42 pin 2 to VD.
+Connected C42 pin 1 to GND1.
+Added C43 (footprint 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder').
+Changed REF** reference designator to C43.
+Changed C43 value from C_0603_1608Metric_Pad1.08x0.95mm_HandSolder to 1uf.
+Updated C43 symbol association from  to /74a538cc-4349-4e3c-b11e-23ffc7b8507e.
+Updated C43 sheetname to 'Root'.
+Updated C43 sheetfile to 'BMS1.kicad_sch'.
+Updated C43 footprint filters to 'C_*'.
+Connected C43 pin 1 to GND2.
+Connected C43 pin 2 to VDD.
+Updated D1 fields.
+Updated D1 sheetname to 'Root'.
+Updated D1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Updated D2 fields.
+Updated D2 sheetname to 'Root'.
+Updated D2 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Updated J1 fields.
+Updated J1 sheetname to 'Root'.
+Updated J1 footprint filters to 'Connector*:*_1x??_*'.
+Updated J2 fields.
+Updated J2 sheetname to 'Root'.
+Updated J2 footprint filters to 'Connector*:*_1x??_*'.
+Updated J3 fields.
+Updated J3 sheetname to 'Root'.
+Updated J3 footprint filters to 'Connector*:*_1x??_*'.
+Added JP1 (footprint 'Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels').
+Changed REF** reference designator to JP1.
+Changed JP1 value from SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels to Jumper_3_Bridged12.
+Updated JP1 symbol association from  to /2f43baf8-2883-41e4-9e19-3010642f43dc.
+Updated JP1 sheetname to 'Root'.
+Updated JP1 sheetfile to 'BMS1.kicad_sch'.
+Updated JP1 footprint filters to 'Jumper* TestPoint*3Pads* TestPoint*Bridge*'.
+Removed JP1 'exclude from BOM' fabrication attribute.
+Add net unconnected-(JP1-C-Pad2).
+Connected JP1 pin 2 to unconnected-(JP1-C-Pad2).
+Add net unconnected-(JP1-A-Pad1).
+Connected JP1 pin 1 to unconnected-(JP1-A-Pad1).
+Add net unconnected-(JP1-B-Pad3).
+Connected JP1 pin 3 to unconnected-(JP1-B-Pad3).
+Changed Q2 value from Q_NPN_BCE to DXT5551P5-13_DIO.
+Updated Q2 fields.
+Updated Q2 sheetname to 'Root'.
+Reconnected Q2 pin 1 from Net-(Q2-B) to VCC.
+Reconnected Q2 pin 2 from VCC to Net-(Q2-B).
+Updated R1 fields.
+Updated R1 sheetname to 'Root'.
+Updated R1 footprint filters to 'R_*'.
+Updated R2 fields.
+Updated R2 sheetname to 'Root'.
+Updated R2 footprint filters to 'R_*'.
+Updated R3 sheetname to 'Root'.
+Updated R3 footprint filters to 'R_*'.
+Reconnected R3 pin 2 from /SCL2 to /SDA2.
+Updated R4 fields.
+Updated R4 sheetname to 'Root'.
+Updated R4 footprint filters to 'R_*'.
+Reconnected R4 pin 2 from /SDA2 to /SCL2.
+Updated R5 fields.
+Updated R5 sheetname to 'Root'.
+Updated R5 footprint filters to 'R_*'.
+Updated R6 fields.
+Updated R6 sheetname to 'Root'.
+Updated R6 footprint filters to 'R_*'.
+Updated R7 fields.
+Updated R7 sheetname to 'Root'.
+Updated R7 footprint filters to 'R_*'.
+Updated R8 fields.
+Updated R8 sheetname to 'Root'.
+Updated R8 footprint filters to 'R_*'.
+Updated R9 fields.
+Updated R9 sheetname to 'Root'.
+Updated R9 footprint filters to 'R_*'.
+Updated R10 fields.
+Updated R10 sheetname to 'Root'.
+Updated R10 footprint filters to 'R_*'.
+Updated R11 fields.
+Updated R11 sheetname to 'Root'.
+Updated R11 footprint filters to 'R_*'.
+Updated R12 fields.
+Updated R12 sheetname to 'Root'.
+Updated R12 footprint filters to 'R_*'.
+Updated R13 fields.
+Updated R13 footprint filters to 'R_*'.
+Add net /BatteryBus1.C15.
+Reconnected R13 pin 1 from /BatteryBus1.C14 to /BatteryBus1.C15.
+Updated R14 fields.
+Updated R14 footprint filters to 'R_*'.
+Updated R15 fields.
+Updated R15 footprint filters to 'R_*'.
+Reconnected R15 pin 1 from Net-(B8--) to Net-(B9-+).
+Updated R16 fields.
+Updated R16 footprint filters to 'R_*'.
+Reconnected R16 pin 1 from Net-(B11--) to Net-(B12-+).
+Updated R17 fields.
+Updated R17 footprint filters to 'R_*'.
+Updated R18 fields.
+Updated R18 footprint filters to 'R_*'.
+Updated R19 fields.
+Updated R19 footprint filters to 'R_*'.
+Reconnected R19 pin 1 from Net-(B10--) to Net-(B11-+).
+Updated R20 fields.
+Updated R20 footprint filters to 'R_*'.
+Updated R21 fields.
+Updated R21 footprint filters to 'R_*'.
+Reconnected R21 pin 1 from Net-(B7--) to Net-(B8-+).
+Updated R22 fields.
+Updated R22 footprint filters to 'R_*'.
+Updated R23 fields.
+Updated R23 footprint filters to 'R_*'.
+Updated R24 fields.
+Updated R24 footprint filters to 'R_*'.
+Updated R25 fields.
+Updated R25 footprint filters to 'R_*'.
+Updated R26 fields.
+Updated R26 footprint filters to 'R_*'.
+Reconnected R26 pin 1 from Net-(B6--) to Net-(B7-+).
+Updated R27 fields.
+Updated R27 footprint filters to 'R_*'.
+Updated R28 fields.
+Updated R28 footprint filters to 'R_*'.
+Reconnected R28 pin 1 from Net-(B8--) to Net-(B9-+).
+Updated R29 fields.
+Updated R29 footprint filters to 'R_*'.
+Reconnected R29 pin 1 from Net-(B11--) to Net-(B12-+).
+Updated R30 fields.
+Updated R30 footprint filters to 'R_*'.
+Updated R31 fields.
+Updated R31 footprint filters to 'R_*'.
+Reconnected R31 pin 1 from Net-(B7--) to Net-(B8-+).
+Updated R32 fields.
+Updated R32 footprint filters to 'R_*'.
+Updated R33 fields.
+Updated R33 footprint filters to 'R_*'.
+Updated R3 fields.
+Updated R34 fields.
+Updated R34 footprint filters to 'R_*'.
+Updated R35 fields.
+Updated R35 footprint filters to 'R_*'.
+Reconnected R35 pin 1 from Net-(B10--) to Net-(B11-+).
+Updated R36 fields.
+Updated R36 footprint filters to 'R_*'.
+Add net unconnected-(B6---Pad2).
+Updated R37 fields.
+Updated R37 footprint filters to 'R_*'.
+Reconnected B6 pin 2 from Net-(B6--) to unconnected-(B6---Pad2).
+Updated R38 fields.
+Updated R38 footprint filters to 'R_*'.
+Reconnected R38 pin 1 from Net-(B6--) to Net-(B7-+).
+Add net unconnected-(B7---Pad2).
+Updated R39 fields.
+Updated R39 footprint filters to 'R_*'.
+Reconnected B7 pin 2 from Net-(B7--) to unconnected-(B7---Pad2).
+Updated R40 fields.
+Updated R40 footprint filters to 'R_*'.
+Add net Net-(B7-+).
+Updated R41 fields.
+Updated R41 footprint filters to 'R_*'.
+Reconnected B7 pin 1 from Net-(B6--) to Net-(B7-+).
+Updated R42 fields.
+Updated R42 footprint filters to 'R_*'.
+Add net Net-(B8-+).
+Updated R43 fields.
+Updated R43 footprint filters to 'R_*'.
+Reconnected B8 pin 1 from Net-(B7--) to Net-(B8-+).
+Updated R44 fields.
+Updated R44 footprint filters to 'R_*'.
+Add net unconnected-(B8---Pad2).
+Updated R45 fields.
+Updated R45 footprint filters to 'R_*'.
+Reconnected B8 pin 2 from Net-(B8--) to unconnected-(B8---Pad2).
+Updated R46 fields.
+Updated R46 footprint filters to 'R_*'.
+Add net Net-(B9-+).
+Updated R47 fields.
+Updated R47 footprint filters to 'R_*'.
+Reconnected B9 pin 1 from Net-(B8--) to Net-(B9-+).
+Updated R48 fields.
+Updated R48 footprint filters to 'R_*'.
+Add net unconnected-(B9---Pad2).
+Updated R49 fields.
+Updated R49 footprint filters to 'R_*'.
+Reconnected B9 pin 2 from Net-(B10-+) to unconnected-(B9---Pad2).
+Updated R50 fields.
+Updated R50 footprint filters to 'R_*'.
+Add net unconnected-(B10---Pad2).
+Updated R51 fields.
+Updated R51 footprint filters to 'R_*'.
+Reconnected B10 pin 2 from Net-(B10--) to unconnected-(B10---Pad2).
+Updated R52 fields.
+Updated R52 footprint filters to 'R_*'.
+Reconnected R52 pin 1 from Net-(B21--) to Net-(B22-+).
+Add net Net-(B11-+).
+Updated R53 fields.
+Updated R53 footprint filters to 'R_*'.
+Reconnected R53 pin 1 from Net-(B24--) to Net-(B25-+).
+Reconnected B11 pin 1 from Net-(B10--) to Net-(B11-+).
+Updated R54 fields.
+Updated R54 footprint filters to 'R_*'.
+Add net unconnected-(B11---Pad2).
+Updated R55 fields.
+Updated R55 footprint filters to 'R_*'.
+Reconnected R55 pin 1 from Net-(B14--) to Net-(B15-+).
+Reconnected B11 pin 2 from Net-(B11--) to unconnected-(B11---Pad2).
+Updated R56 fields.
+Updated R56 footprint filters to 'R_*'.
+Reconnected R56 pin 1 from Net-(B15--) to Net-(B16-+).
+Add net Net-(B12-+).
+Updated R57 fields.
+Updated R57 footprint filters to 'R_*'.
+Reconnected R57 pin 1 from Net-(B23--) to Net-(B24-+).
+Reconnected B12 pin 1 from Net-(B11--) to Net-(B12-+).
+Updated R58 fields.
+Updated R58 footprint filters to 'R_*'.
+Add net unconnected-(B13---Pad2).
+Updated R59 fields.
+Updated R59 footprint filters to 'R_*'.
+Reconnected R59 pin 1 from Net-(B13--) to Net-(B14-+).
+Reconnected B13 pin 2 from Net-(B13--) to unconnected-(B13---Pad2).
+Updated R60 fields.
+Updated R60 footprint filters to 'R_*'.
+Reconnected R60 pin 1 from Net-(B20--) to Net-(B21-+).
+Add net Net-(B14-+).
+Updated R61 fields.
+Updated R61 footprint filters to 'R_*'.
+Reconnected R61 pin 1 from Net-(B22--) to Net-(B23-+).
+Reconnected B14 pin 1 from Net-(B13--) to Net-(B14-+).
+Updated R62 fields.
+Updated R62 footprint filters to 'R_*'.
+Reconnected R62 pin 1 from Net-(B16--) to Net-(B17-+).
+Add net unconnected-(B14---Pad2).
+Updated R63 fields.
+Updated R63 footprint filters to 'R_*'.
+Reconnected R63 pin 1 from Net-(B17--) to Net-(B18-+).
+Reconnected B14 pin 2 from Net-(B14--) to unconnected-(B14---Pad2).
+Updated R64 fields.
+Updated R64 footprint filters to 'R_*'.
+Reconnected R64 pin 1 from Net-(B18--) to Net-(B19-+).
+Add net Net-(B15-+).
+Updated R65 fields.
+Updated R65 footprint filters to 'R_*'.
+Reconnected R65 pin 1 from Net-(B19--) to Net-(B20-+).
+Reconnected B15 pin 1 from Net-(B14--) to Net-(B15-+).
+Updated R66 fields.
+Updated R66 footprint filters to 'R_*'.
+Add net unconnected-(B15---Pad2).
+Updated R67 fields.
+Updated R67 footprint filters to 'R_*'.
+Reconnected R67 pin 1 from Net-(B14--) to Net-(B15-+).
+Reconnected B15 pin 2 from Net-(B15--) to unconnected-(B15---Pad2).
+Updated R68 fields.
+Updated R68 footprint filters to 'R_*'.
+Reconnected R68 pin 1 from Net-(B21--) to Net-(B22-+).
+Add net Net-(B16-+).
+Updated R69 fields.
+Updated R69 footprint filters to 'R_*'.
+Reconnected R69 pin 1 from Net-(B24--) to Net-(B25-+).
+Reconnected B16 pin 1 from Net-(B15--) to Net-(B16-+).
+Updated R70 fields.
+Updated R70 footprint filters to 'R_*'.
+Reconnected R70 pin 1 from Net-(B15--) to Net-(B16-+).
+Add net unconnected-(B16---Pad2).
+Updated R71 fields.
+Updated R71 footprint filters to 'R_*'.
+Reconnected R71 pin 1 from Net-(B20--) to Net-(B21-+).
+Reconnected B16 pin 2 from Net-(B16--) to unconnected-(B16---Pad2).
+Updated R72 fields.
+Updated R72 footprint filters to 'R_*'.
+Reconnected R72 pin 1 from Net-(B13--) to Net-(B14-+).
+Add net unconnected-(B17---Pad2).
+Updated R73 fields.
+Updated R73 footprint filters to 'R_*'.
+Reconnected R73 pin 1 from Net-(B16--) to Net-(B17-+).
+Reconnected B17 pin 2 from Net-(B17--) to unconnected-(B17---Pad2).
+Updated R74 fields.
+Updated R74 footprint filters to 'R_*'.
+Reconnected R74 pin 1 from Net-(B17--) to Net-(B18-+).
+Add net Net-(B17-+).
+Updated R75 fields.
+Updated R75 footprint filters to 'R_*'.
+Reconnected R75 pin 1 from Net-(B23--) to Net-(B24-+).
+Reconnected B17 pin 1 from Net-(B16--) to Net-(B17-+).
+Updated R76 fields.
+Updated R76 footprint filters to 'R_*'.
+Reconnected R76 pin 1 from Net-(B18--) to Net-(B19-+).
+Add net unconnected-(B18---Pad2).
+Updated R77 fields.
+Updated R77 footprint filters to 'R_*'.
+Reconnected R77 pin 1 from Net-(B22--) to Net-(B23-+).
+Reconnected B18 pin 2 from Net-(B18--) to unconnected-(B18---Pad2).
+Updated R78 fields.
+Updated R78 footprint filters to 'R_*'.
+Reconnected R78 pin 1 from Net-(B19--) to Net-(B20-+).
+Add net Net-(B18-+).
+Changed R79 value from 21 to 18.
+Updated R79 fields.
+Updated R79 footprint filters to 'R_*'.
+Reconnected B18 pin 1 from Net-(B17--) to Net-(B18-+).
+Updated R80 fields.
+Updated R80 footprint filters to 'R_*'.
+Add net Net-(B19-+).
+Updated R81 fields.
+Updated R81 footprint filters to 'R_*'.
+Reconnected B19 pin 1 from Net-(B18--) to Net-(B19-+).
+Updated R82 fields.
+Updated R82 footprint filters to 'R_*'.
+Add net unconnected-(B19---Pad2).
+Updated R83 fields.
+Updated R83 footprint filters to 'R_*'.
+Reconnected B19 pin 2 from Net-(B19--) to unconnected-(B19---Pad2).
+Updated R84 fields.
+Updated R84 footprint filters to 'R_*'.
+Add net unconnected-(B20---Pad2).
+Updated R85 fields.
+Updated R85 footprint filters to 'R_*'.
+Reconnected B20 pin 2 from Net-(B20--) to unconnected-(B20---Pad2).
+Updated R86 fields.
+Updated R86 footprint filters to 'R_*'.
+Add net Net-(B20-+).
+Updated R87 fields.
+Updated R87 footprint filters to 'R_*'.
+Reconnected B20 pin 1 from Net-(B19--) to Net-(B20-+).
+Updated R88 fields.
+Updated R88 footprint filters to 'R_*'.
+Add net unconnected-(B21---Pad2).
+Updated R89 fields.
+Updated R89 footprint filters to 'R_*'.
+Reconnected B21 pin 2 from Net-(B21--) to unconnected-(B21---Pad2).
+Updated R90 fields.
+Updated R90 footprint filters to 'R_*'.
+Add net Net-(B21-+).
+Updated R91 fields.
+Updated R91 footprint filters to 'R_*'.
+Reconnected B21 pin 1 from Net-(B20--) to Net-(B21-+).
+Updated R92 fields.
+Updated R92 footprint filters to 'R_*'.
+Add net unconnected-(B22---Pad2).
+Updated R93 fields.
+Updated R93 footprint filters to 'R_*'.
+Reconnected B22 pin 2 from Net-(B22--) to unconnected-(B22---Pad2).
+Changed R94 value from R_US to 330.
+Updated R94 fields.
+Updated R94 sheetname to 'Root'.
+Updated R94 footprint filters to 'R_*'.
+Add net Net-(B22-+).
+Changed R95 value from R_US to 330.
+Updated R95 fields.
+Updated R95 sheetname to 'Root'.
+Updated R95 footprint filters to 'R_*'.
+Reconnected B22 pin 1 from Net-(B21--) to Net-(B22-+).
+Add net unconnected-(B23---Pad2).
+Reconnected B23 pin 2 from Net-(B23--) to unconnected-(B23---Pad2).
+Updated T1 fields.
+Updated T1 sheetname to 'Root'.
+Updated T1 footprint filters to 'SOIC4_CBM4D19_SUM SOIC4_CBM4D19_SUM-M SOIC4_CBM4D19_SUM-L'.
+Add net Net-(B23-+).
+Updated U1 fields.
+Updated U1 sheetname to 'Root'.
+Updated U1 footprint filters to 'TSSOP*4.4x5mm*P0.65mm*'.
+Reconnected B23 pin 1 from Net-(B22--) to Net-(B23-+).
+Updated U2 fields.
+Updated U2 sheetname to 'Root'.
+Updated U2 footprint filters to 'TSSOP*4.4x5mm*P0.65mm*'.
+Add net Net-(B24-+).
+Updated U3 fields.
+Updated U3 sheetname to 'Root'.
+Updated U3 footprint filters to 'TSSOP*4.4x5mm*P0.65mm*'.
+Reconnected B24 pin 1 from Net-(B23--) to Net-(B24-+).
+Updated U4 fields.
+Updated U4 sheetname to 'Root'.
+Updated U4 footprint filters to 'TSSOP*4.4x5mm*P0.65mm*'.
+Add net unconnected-(B24---Pad2).
+Updated U5 fields.
+Updated U5 sheetname to 'Root'.
+Updated U5 footprint filters to 'TSSOP*4.4x5mm*P0.65mm*'.
+Reconnected B24 pin 2 from Net-(B24--) to unconnected-(B24---Pad2).
+Updated U6 fields.
+Updated U6 sheetname to 'Root'.
+Updated U6 footprint filters to 'TSSOP*4.4x5mm*P0.65mm*'.
+Add net Net-(B25-+).
+Updated U7 fields.
+Updated U7 sheetname to 'Root'.
+Updated U7 footprint filters to 'TSSOP*4.4x5mm*P0.65mm*'.
+Reconnected B25 pin 1 from Net-(B24--) to Net-(B25-+).
+Updated U8 fields.
+Updated U8 sheetname to 'Root'.
+Updated U8 footprint filters to 'TSSOP*4.4x5mm*P0.65mm*'.
+Changed C1 value from 15u to 0.1uF.
+Updated U9 sheetname to 'Root'.
+Add net unconnected-(U9-GPIO3-Pad41).
+Reconnected U9 pin 41 from /SCL2 to unconnected-(U9-GPIO3-Pad41).
+Reconnected U9 pin 12 from Net-(U9-C11) to /BatteryBus1.C11.
+Reconnected U9 pin 6 from /BatteryBus1.C14 to /BatteryBus1.C15.
+Reconnected U9 pin 28 from Net-(U9-C5) to /BatteryBus1.C5.
+Reconnected U9 pin 43 from unconnected-(U9-GPIO5-Pad43) to /SCL2.
+Reconnected U9 pin 50 from unconnected-(U9-VREF2-Pad50) to Net-(U9-VREF2).
+Reconnected U9 pin 8 from Net-(U9-C13) to /BatteryBus1.C15.
+Reconnected U9 pin 38 from Net-(U9-C0) to /BatteryBus1.C0.
+Add net Net-(Q3-B).
+Reconnected U9 pin 49 from Net-(Q1-B) to Net-(Q3-B).
+Reconnected U9 pin 20 from Net-(U9-C8) to /BatteryBus1.C8.
+Reconnected U9 pin 24 from Net-(U9-C6) to /BatteryBus1.C6.
+Reconnected U9 pin 34 from Net-(U9-C2) to /BatteryBus1.C2.
+Reconnected U9 pin 30 from Net-(U9-C4) to /BatteryBus1.C4.
+Reconnected U9 pin 10 from Net-(U9-C12) to /BatteryBus1.C12.
+Reconnected U9 pin 4 from /BatteryBus1.C14 to /BatteryBus1.C15.
+Reconnected U9 pin 22 from Net-(U9-C7) to /BatteryBus1.C7.
+Reconnected U9 pin 32 from Net-(U9-C3) to /BatteryBus1.C3.
+Reconnected U9 pin 16 from Net-(U9-C10) to /BatteryBus1.C10.
+Reconnected U9 pin 36 from Net-(U9-C1) to /BatteryBus1.C1.
+Reconnected U9 pin 18 from Net-(U9-C9) to /BatteryBus1.C9.
+Updated C1 fields.
+Updated U10 sheetname to 'Root'.
+Reconnected U10 pin 12 from Net-(U10-C11) to /BatteryBus.C11.
+Reconnected U10 pin 24 from Net-(U10-C6) to /BatteryBus.C6.
+Reconnected U10 pin 34 from Net-(U10-C2) to /BatteryBus.C2.
+Reconnected U10 pin 18 from Net-(U10-C9) to /BatteryBus.C9.
+Add net unconnected-(U10-GPIO3-Pad41).
+Reconnected U10 pin 41 from /SCL1 to unconnected-(U10-GPIO3-Pad41).
+Reconnected U10 pin 36 from Net-(U10-C1) to /BatteryBus.C1.
+Reconnected U10 pin 22 from Net-(U10-C7) to /BatteryBus.C7.
+Reconnected U10 pin 16 from Net-(U10-C10) to /BatteryBus.C10.
+Add net Net-(U10-VREF2).
+Reconnected U10 pin 50 from unconnected-(U10-VREF2-Pad50) to Net-(U10-VREF2).
+Reconnected U10 pin 8 from Net-(U10-C13) to /BatteryBus.C13.
+Reconnected U10 pin 43 from unconnected-(U10-GPIO5-Pad43) to /SCL1.
+Reconnected U10 pin 20 from Net-(U10-C8) to /BatteryBus.C8.
+Reconnected U10 pin 30 from Net-(U10-C4) to /BatteryBus.C4.
+Reconnected U10 pin 32 from Net-(U10-C3) to /BatteryBus.C3.
+Reconnected U10 pin 28 from Net-(U10-C5) to /BatteryBus.C5.
+Reconnected U10 pin 38 from Net-(U10-C0) to /BatteryBus.C0.
+Reconnected U10 pin 10 from Net-(U10-C12) to /BatteryBus.C12.
+Reconnected via from Net-(B7--) to Net-(B8-+).
+Reconnected via from Net-(B13--) to Net-(B14-+).
+Reconnected via from Net-(B15--) to Net-(B16-+).
+Reconnected via from Net-(B17--) to Net-(B18-+).
+Reconnected via from Net-(B19--) to Net-(B20-+).
+Reconnected via from Net-(B21--) to Net-(B22-+).
+Reconnected via from Net-(B23--) to Net-(B24-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C2) to /BatteryBus.C2.
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C6) to /BatteryBus.C6.
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C6) to /BatteryBus1.C6.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B21--) to Net-(B22-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C5) to /BatteryBus.C5.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B22--) to Net-(B23-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C8) to /BatteryBus1.C8.
+Reconnected copper zone '$teardrop_padvia$' from /BatteryBus1.C14 to /BatteryBus1.C15.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B19--) to Net-(B20-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B16--) to Net-(B17-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C13) to /BatteryBus1.C15.
+Reconnected copper zone '$teardrop_padvia$' from /BatteryBus1.C14 to /BatteryBus1.C15.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B8--) to Net-(B9-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C3) to /BatteryBus.C3.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B24--) to Net-(B25-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C11) to /BatteryBus.C11.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B7--) to Net-(B8-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C10) to /BatteryBus.C10.
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C1) to /BatteryBus.C1.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B6--) to Net-(B7-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B10--) to unconnected-(B10---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C3) to /BatteryBus1.C3.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B13--) to Net-(B14-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C4) to /BatteryBus.C4.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B14--) to Net-(B15-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B20--) to Net-(B21-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B13--) to Net-(B14-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B6--) to Net-(B7-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B18--) to Net-(B19-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B17--) to Net-(B18-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C8) to /BatteryBus.C8.
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C11) to /BatteryBus1.C11.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B6--) to unconnected-(B6---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B11--) to unconnected-(B11---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B15--) to unconnected-(B15---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C0) to /BatteryBus.C0.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B10--) to Net-(B11-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B21--) to unconnected-(B21---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B18--) to Net-(B19-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C4) to /BatteryBus1.C4.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B16--) to Net-(B17-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C5) to /BatteryBus1.C5.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B16--) to Net-(B17-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C13) to /BatteryBus.C13.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B15--) to Net-(B16-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B8--) to unconnected-(B8---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B24--) to unconnected-(B24---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B6--) to unconnected-(B6---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C12) to /BatteryBus1.C12.
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C7) to /BatteryBus1.C7.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B20--) to Net-(B21-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B14--) to Net-(B15-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B17--) to Net-(B18-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C12) to /BatteryBus.C12.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B10--) to unconnected-(B10---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C0) to /BatteryBus1.C0.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B22--) to Net-(B23-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B13--) to Net-(B14-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B21--) to Net-(B22-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B14--) to Net-(B15-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B23--) to Net-(B24-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B16--) to Net-(B17-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B7--) to Net-(B8-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B21--) to Net-(B22-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B7--) to Net-(B8-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B8--) to unconnected-(B8---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B17--) to Net-(B18-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B8--) to Net-(B9-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B23--) to Net-(B24-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B13--) to Net-(B14-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(Q1-B) to Net-(Q3-B).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B10--) to Net-(B11-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B16--) to Net-(B17-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B15--) to Net-(B16-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B20--) to Net-(B21-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B24--) to Net-(B25-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B20--) to Net-(B21-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C7) to /BatteryBus.C7.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B23--) to Net-(B24-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B24--) to Net-(B25-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C1) to /BatteryBus1.C1.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B15--) to Net-(B16-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B11--) to Net-(B12-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B18--) to Net-(B19-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B19--) to unconnected-(B19---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B7--) to Net-(B8-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B11--) to Net-(B12-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B17--) to Net-(B18-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C9) to /BatteryBus1.C9.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B23--) to Net-(B24-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B18--) to Net-(B19-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B14--) to Net-(B15-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U10-C9) to /BatteryBus.C9.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B22--) to Net-(B23-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B11--) to Net-(B12-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B16--) to unconnected-(B16---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B22--) to Net-(B23-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B19--) to Net-(B20-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C2) to /BatteryBus1.C2.
+Reconnected copper zone '$teardrop_padvia$' from Net-(B19--) to Net-(B20-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(U9-C10) to /BatteryBus1.C10.
+Reconnected copper zone '$teardrop_padvia$' from /BatteryBus1.C14 to /BatteryBus1.C15.
+Reconnected copper zone '$teardrop_track$' from Net-(Q1-B) to Net-(Q3-B).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B21--) to Net-(B22-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B15--) to Net-(B16-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B13--) to Net-(B14-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B23--) to Net-(B24-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B23--) to Net-(B24-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B17--) to Net-(B18-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B7--) to unconnected-(B7---Pad2).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B13--) to Net-(B14-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B19--) to Net-(B20-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B17--) to Net-(B18-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B21--) to Net-(B22-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B19--) to Net-(B20-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B7--) to Net-(B8-+).
+Reconnected copper zone '$teardrop_padvia$' from Net-(B15--) to unconnected-(B15---Pad2).
+Removed unused net Net-(B10--).
+Removed unused net Net-(B11--).
+Removed unused net Net-(B13--).
+Removed unused net Net-(B14--).
+Removed unused net Net-(B15--).
+Removed unused net Net-(B16--).
+Removed unused net Net-(B17--).
+Removed unused net Net-(B18--).
+Removed unused net Net-(B19--).
+Removed unused net Net-(B20--).
+Removed unused net Net-(B21--).
+Removed unused net Net-(B22--).
+Removed unused net Net-(B23--).
+Removed unused net Net-(B24--).
+Removed unused net Net-(B6--).
+Removed unused net Net-(B7--).
+Removed unused net Net-(B8--).
+Removed unused net unconnected-(U10-GPIO5-Pad43).
+Removed unused net unconnected-(U10-VREF2-Pad50).
+Removed unused net unconnected-(U9-GPIO5-Pad43).
+Removed unused net unconnected-(U9-VREF2-Pad50).
+Warning: No net found for component U9 pad 27 (no pin 27 in symbol).
+Warning: No net found for component U10 pad 15 (no pin 15 in symbol).
+Warning: No net found for component U9 pad 26 (no pin 26 in symbol).
+Warning: No net found for component U9 pad 2 (no pin 2 in symbol).
+Warning: No net found for component U10 pad 14 (no pin 14 in symbol).
+Warning: No net found for component U10 pad 26 (no pin 26 in symbol).
+Warning: No net found for component U9 pad 15 (no pin 15 in symbol).
+Warning: No net found for component U10 pad 2 (no pin 2 in symbol).
+Warning: No net found for component U10 pad 3 (no pin 3 in symbol).
+Warning: No net found for component U9 pad 3 (no pin 3 in symbol).
+Warning: No net found for component U9 pad 14 (no pin 14 in symbol).
+Warning: No net found for component U10 pad 27 (no pin 27 in symbol).
+Error: Cannot add R96 (no footprint assigned).
+Error: Cannot add Q3 (footprint 'AERO_Footprints:DXT5551P5-13_DIO' not found).
+Error: Cannot add R97 (no footprint assigned).
+Error: Cannot add C40 (no footprint assigned).
+
+
+Info: Total warnings: 12, errors: 4.

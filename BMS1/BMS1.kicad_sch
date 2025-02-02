@@ -5962,16 +5962,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.417 61.214) (xy 33.655 61.214)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "066e8b8c-a5ae-40f0-a9ae-59f3779b1d67")
-	)
-	(wire
-		(pts
 			(xy 27.051 48.514) (xy 30.099 48.514)
 		)
 		(stroke
@@ -7309,16 +7299,6 @@
 			(type default)
 		)
 		(uuid "4b323e88-2d5f-453a-bc2a-432f176370e0")
-	)
-	(wire
-		(pts
-			(xy 33.655 99.695) (xy 34.417 99.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4baa9fc2-c062-4cdc-ac4b-a99ec4f08ec5")
 	)
 	(wire
 		(pts
@@ -15353,6 +15333,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "1k"
@@ -15361,6 +15342,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"

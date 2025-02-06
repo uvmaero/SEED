@@ -5,12 +5,129 @@
 	(uuid "e8200721-e7ea-4270-aa43-c657797ad178")
 	(paper "A" portrait)
 	(lib_symbols
+		(symbol "AERO:VTC6+T-single"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B24"
+				(at -3.81 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VTC6+T-single_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VTC6+T-single_1_1"
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -7.62 90)
+					(length 2.54)
+					(name "T-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "T+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "AERO_Symbols:VTC6+T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B25"
+				(at -1.524 1.143 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,7 +135,7 @@
 				)
 			)
 			(property "Value" "VTC6+T"
-				(at -2.54 2.54 0)
+				(at -4.064 1.143 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,6 +161,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -84,7 +210,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -7.62 10.16 270)
 					(length 2.54)
 					(name "-"
@@ -446,27 +572,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_10"
+		(symbol "VTC6+T-single_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B13"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_10"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -493,7 +619,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_10_0_1"
+			(symbol "VTC6+T-single_1_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -506,7 +632,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_10_1_1"
+			(symbol "VTC6+T-single_1_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -525,10 +651,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -554,24 +680,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -581,27 +689,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_11"
+		(symbol "VTC6+T-single_10"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B22"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_11"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -628,7 +736,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_11_0_1"
+			(symbol "VTC6+T-single_10_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -641,7 +749,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_11_1_1"
+			(symbol "VTC6+T-single_10_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -660,10 +768,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -689,24 +797,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -716,27 +806,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_12"
+		(symbol "VTC6+T-single_11"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B23"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_12"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -763,7 +853,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_12_0_1"
+			(symbol "VTC6+T-single_11_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -776,7 +866,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_12_1_1"
+			(symbol "VTC6+T-single_11_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -795,10 +885,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -824,24 +914,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -851,27 +923,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_13"
+		(symbol "VTC6+T-single_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B14"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_13"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -898,7 +970,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_13_0_1"
+			(symbol "VTC6+T-single_2_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -911,7 +983,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_13_1_1"
+			(symbol "VTC6+T-single_2_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -930,10 +1002,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -959,24 +1031,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -986,27 +1040,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_15"
+		(symbol "VTC6+T-single_3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B15"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_15"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1033,7 +1087,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_15_0_1"
+			(symbol "VTC6+T-single_3_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -1046,7 +1100,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_15_1_1"
+			(symbol "VTC6+T-single_3_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -1065,10 +1119,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1094,24 +1148,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1121,27 +1157,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_16"
+		(symbol "VTC6+T-single_4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B16"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_16"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1168,7 +1204,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_16_0_1"
+			(symbol "VTC6+T-single_4_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -1181,7 +1217,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_16_1_1"
+			(symbol "VTC6+T-single_4_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -1200,10 +1236,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1229,24 +1265,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1256,27 +1274,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_17"
+		(symbol "VTC6+T-single_5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B17"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_17"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1303,7 +1321,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_17_0_1"
+			(symbol "VTC6+T-single_5_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -1316,7 +1334,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_17_1_1"
+			(symbol "VTC6+T-single_5_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -1335,10 +1353,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1364,24 +1382,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1391,27 +1391,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_5"
+		(symbol "VTC6+T-single_6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B18"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_5"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1438,7 +1438,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_5_0_1"
+			(symbol "VTC6+T-single_6_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -1451,7 +1451,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_5_1_1"
+			(symbol "VTC6+T-single_6_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -1470,10 +1470,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1499,24 +1499,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1526,27 +1508,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_6"
+		(symbol "VTC6+T-single_7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B19"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_6"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1573,7 +1555,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_6_0_1"
+			(symbol "VTC6+T-single_7_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -1586,7 +1568,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_6_1_1"
+			(symbol "VTC6+T-single_7_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -1605,10 +1587,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1634,24 +1616,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1661,27 +1625,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_7"
+		(symbol "VTC6+T-single_8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B20"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_7"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1708,7 +1672,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_7_0_1"
+			(symbol "VTC6+T-single_8_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -1721,7 +1685,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_7_1_1"
+			(symbol "VTC6+T-single_8_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -1740,10 +1704,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1769,24 +1733,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1796,27 +1742,27 @@
 				)
 			)
 		)
-		(symbol "VTC6+T_8"
+		(symbol "VTC6+T-single_9"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B21"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_8"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1843,7 +1789,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_8_0_1"
+			(symbol "VTC6+T-single_9_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -1856,7 +1802,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_8_1_1"
+			(symbol "VTC6+T-single_9_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -1875,10 +1821,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1904,159 +1850,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "VTC6+T_9"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VTC6+T_9"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VTC6+T_9_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "VTC6+T_9_1_1"
-				(pin power_in line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -7.62 10.16 270)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(name "T+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2164,9 +1957,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2180,7 +1973,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2214,7 +2007,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2264,8 +2057,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2560,10 +2353,6 @@
 	(no_connect
 		(at 121.92 17.78)
 		(uuid "9921ae03-0f00-4dcf-8552-b242781ed1cc")
-	)
-	(no_connect
-		(at 66.04 152.4)
-		(uuid "e0035d1a-af30-43fd-9da8-fbd180b623bd")
 	)
 	(bus_entry
 		(at 119.38 30.48)
@@ -4674,17 +4463,6 @@
 		)
 		(uuid "fed2ac6a-ff22-4d08-afe2-8f7ac992e507")
 	)
-	(text "Only keep + holes, delete negative wires, (except for B25)\nDelete squares on footprint (not little circled!)\npg 86, Fig 47. Use schematic on the right"
-		(exclude_from_sim no)
-		(at 139.7 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88870f1e-e421-4239-9bf1-efe6be2aa494")
-	)
 	(label "BatteryBus.S6"
 		(at 116.84 137.16 180)
 		(effects
@@ -5624,7 +5402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -5770,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 85.09 106.68 0)
 			(effects
 				(font
@@ -5849,7 +5627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 87.63 167.64 0)
 			(effects
 				(font
@@ -5877,6 +5655,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_2")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 53.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e31c6b3-7537-4dcf-af22-466a3d427df3")
+		(property "Reference" "B14"
+			(at 57.404 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d878dcea-7900-4486-8cb0-9132920ae71d")
+		)
+		(pin "1"
+			(uuid "e5972973-b025-4e04-8ae2-ccf03ef14ce1")
+		)
+		(pin "3"
+			(uuid "11894460-cb36-4d48-8828-963af147d0c3")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B14")
 					(unit 1)
 				)
 			)
@@ -5928,7 +5778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 87.63 213.36 0)
 			(effects
 				(font
@@ -6007,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 187.96 0)
 			(effects
 				(font
@@ -6035,90 +5885,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_12")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 129.54 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "250b4b88-c5a6-4654-99bf-55dc1897be40")
-		(property "Reference" "B19"
-			(at 57.023 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 133.604 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c81f90c-d4c6-498c-b2c6-76941c53fe41")
-		)
-		(pin "2"
-			(uuid "275243ab-f139-40bd-a715-23af958f3ec1")
-		)
-		(pin "3"
-			(uuid "1f36d69e-65ff-44e0-abbd-3452a6676666")
-		)
-		(pin "4"
-			(uuid "3f090c51-52b8-4d8e-96f5-c0355f961e96")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B19")
 					(unit 1)
 				)
 			)
@@ -6168,7 +5934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 22.86 0)
 			(effects
 				(font
@@ -6245,7 +6011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -6324,7 +6090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -6352,6 +6118,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_3")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 68.58 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3993ec97-7100-4274-94dd-474a283d8f2c")
+		(property "Reference" "B15"
+			(at 57.404 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae9a08e8-ca3d-47a6-a747-d29fc06e31f9")
+		)
+		(pin "1"
+			(uuid "5ce92494-46f6-459b-bfb9-a00f806f6c1a")
+		)
+		(pin "3"
+			(uuid "55a4713e-df91-424b-b4a3-f9f64a0a9fb0")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B15")
 					(unit 1)
 				)
 			)
@@ -6403,7 +6241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 92.71 228.6 0)
 			(effects
 				(font
@@ -6480,7 +6318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 162.56 0)
 			(effects
 				(font
@@ -6557,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 71.12 0)
 			(effects
 				(font
@@ -6585,90 +6423,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_15")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 160.02 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3cab47c8-b189-4098-b541-ec89903ba0d2")
-		(property "Reference" "B21"
-			(at 57.023 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 164.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c570fcf-539b-49b7-8ffd-889a15413152")
-		)
-		(pin "2"
-			(uuid "d5d5ff06-9ebd-4397-bf4a-4c6aa388fd07")
-		)
-		(pin "3"
-			(uuid "29180492-a6d1-4e77-bdb4-e9e5de819d13")
-		)
-		(pin "4"
-			(uuid "1aace28a-bb60-4cc1-b8d3-02b092be2411")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B21")
 					(unit 1)
 				)
 			)
@@ -6720,7 +6474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 85.09 121.92 0)
 			(effects
 				(font
@@ -6748,6 +6502,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_8")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 144.78 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d2acaf9-30f9-45df-afbd-1c383262de6b")
+		(property "Reference" "B20"
+			(at 57.404 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abdd1d15-39ee-48fc-869f-42ce1d1dbe03")
+		)
+		(pin "1"
+			(uuid "fc756b2f-c840-435f-933e-45f0cab88faf")
+		)
+		(pin "3"
+			(uuid "b6d4d81b-b17f-406a-a4a1-9ba4df57459c")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B20")
 					(unit 1)
 				)
 			)
@@ -6865,7 +6691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 85.09 30.48 0)
 			(effects
 				(font
@@ -6893,6 +6719,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_9")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e53d033-eef1-41a9-ac49-bb05f748ec98")
+		(property "Reference" "B21"
+			(at 57.404 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 165.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6874a92d-314a-45e5-9c23-b42f51dcda75")
+		)
+		(pin "1"
+			(uuid "3dd73dd9-20a5-421a-83f1-c713878c9b3f")
+		)
+		(pin "3"
+			(uuid "efa72da2-4552-4ad7-852c-075cbe31099f")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B21")
 					(unit 1)
 				)
 			)
@@ -6942,7 +6840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -6970,6 +6868,77 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 205.74 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a92706f-b7ce-4c8f-a90a-8a6320dfb290")
+		(property "Reference" "B24"
+			(at 57.404 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 211.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea9043de-7167-4431-adcc-c94cfc9931ec")
+		)
+		(pin "1"
+			(uuid "ff797c4c-d866-4f98-b674-d8027229d372")
+		)
+		(pin "3"
+			(uuid "adb61d61-ca58-4ca7-83f3-e1265cb230b8")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B24")
 					(unit 1)
 				)
 			)
@@ -7021,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 218.44 0)
 			(effects
 				(font
@@ -7100,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -7194,89 +7163,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 190.5 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51307b7c-cf96-4da7-acad-cb9a9e80aa3e")
-		(property "Reference" "B23"
-			(at 57.023 192.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 194.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6773962-7018-4330-ad78-51ed002b7efc")
-		)
-		(pin "2"
-			(uuid "b88ced01-9e91-407e-9853-1b9d76a7aabe")
-		)
-		(pin "3"
-			(uuid "b1b84a98-3849-40b0-a312-c8719d73f34a")
-		)
-		(pin "4"
-			(uuid "fa14f356-d48d-47d5-a72b-e108461adf81")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B23")
 					(unit 1)
 				)
 			)
@@ -7394,7 +7280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -7471,7 +7357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 39.37 0)
 			(effects
 				(font
@@ -7499,6 +7385,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_7")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 129.54 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57dda9ee-519d-4a8e-9723-c627615d149e")
+		(property "Reference" "B19"
+			(at 57.404 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd6834cd-05f5-4d77-b7b5-bbb0f3f94c38")
+		)
+		(pin "1"
+			(uuid "0714eb3d-0898-4157-829b-f1cee5667a49")
+		)
+		(pin "3"
+			(uuid "3a6f8179-b463-4650-a29e-489cb5d3ab24")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B19")
 					(unit 1)
 				)
 			)
@@ -7548,7 +7506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -7627,7 +7585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 127 0)
 			(effects
 				(font
@@ -7655,90 +7613,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_13")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 99.06 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5eff26fe-22b0-41ee-87ec-f3cce84e89dd")
-		(property "Reference" "B17"
-			(at 57.023 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18970eb7-3233-4987-b6f8-57f012852e0a")
-		)
-		(pin "2"
-			(uuid "f6f8d59f-b881-4132-8979-4fa75febd267")
-		)
-		(pin "3"
-			(uuid "fa77bef0-82f1-4828-b331-6b63a8fa8d9e")
-		)
-		(pin "4"
-			(uuid "75a08ee6-027b-4e95-aefa-4b5d58bb139e")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B17")
 					(unit 1)
 				)
 			)
@@ -7788,7 +7662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 86.36 0)
 			(effects
 				(font
@@ -7865,7 +7739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 207.01 0)
 			(effects
 				(font
@@ -7942,7 +7816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 193.04 0)
 			(effects
 				(font
@@ -7970,90 +7844,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_5")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 38.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d188a75-8534-4ba0-9d32-dd452148351c")
-		(property "Reference" "B13"
-			(at 57.023 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7014654-846e-4950-91ca-efb0fb5c0600")
-		)
-		(pin "2"
-			(uuid "7c53d93e-101c-44a7-b9f1-88a88eb730d3")
-		)
-		(pin "3"
-			(uuid "89262a2f-3a6e-4465-ab02-4006fce9ddc9")
-		)
-		(pin "4"
-			(uuid "90c23608-4829-426e-a4fa-a679904c6b93")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B13")
 					(unit 1)
 				)
 			)
@@ -8105,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 87.63 152.4 0)
 			(effects
 				(font
@@ -8184,7 +7974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 50.8 0)
 			(effects
 				(font
@@ -8329,7 +8119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 85.09 45.72 0)
 			(effects
 				(font
@@ -8474,7 +8264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 157.48 0)
 			(effects
 				(font
@@ -8553,7 +8343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 68.58 22.86 0)
 			(effects
 				(font
@@ -8618,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 40.64 0)
 			(effects
 				(font
@@ -8697,7 +8487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 85.09 198.12 0)
 			(effects
 				(font
@@ -8774,7 +8564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 132.08 0)
 			(effects
 				(font
@@ -8853,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 92.71 142.24 0)
 			(effects
 				(font
@@ -8881,6 +8671,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_5")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 99.06 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84dc4322-0fc3-427a-a43d-d5f8a8a5f15a")
+		(property "Reference" "B17"
+			(at 57.404 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30f878ee-fd04-4285-a01f-d54a6e9f3977")
+		)
+		(pin "1"
+			(uuid "3639bfe2-16c1-4e7c-aecc-ef927b6a4460")
+		)
+		(pin "3"
+			(uuid "62144ce3-f418-4951-96b4-02f52a04680e")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B17")
 					(unit 1)
 				)
 			)
@@ -8930,7 +8792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -9007,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 222.25 0)
 			(effects
 				(font
@@ -9084,7 +8946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 116.84 0)
 			(effects
 				(font
@@ -9161,7 +9023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 223.52 0)
 			(effects
 				(font
@@ -9240,7 +9102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 87.63 60.96 0)
 			(effects
 				(font
@@ -9268,90 +9130,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_7")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 68.58 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "970668e9-4665-4982-8bc2-d00d2bc88537")
-		(property "Reference" "B15"
-			(at 57.023 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5bbae8c-b02e-413f-827b-1775c8cdb245")
-		)
-		(pin "2"
-			(uuid "312bd3f7-e93e-4f0e-8b4d-5972c9aa62ca")
-		)
-		(pin "3"
-			(uuid "17721166-d8f5-4922-88d6-e54818254ef1")
-		)
-		(pin "4"
-			(uuid "b783db71-2e68-40ab-8bb1-b39b2d67c3e9")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B15")
 					(unit 1)
 				)
 			)
@@ -9403,7 +9181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 172.72 0)
 			(effects
 				(font
@@ -9548,7 +9326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 35.56 0)
 			(effects
 				(font
@@ -9576,90 +9354,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_8")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 53.34 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fffea51-9009-4794-b4b2-b6bd7d3bab0c")
-		(property "Reference" "B14"
-			(at 57.023 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 57.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1774101-2309-414d-827a-f5ad842a7fca")
-		)
-		(pin "2"
-			(uuid "baca5b4d-bfeb-463c-af1b-1f663a6d89d4")
-		)
-		(pin "3"
-			(uuid "1c0ac287-8ca3-4270-b44a-4979b4281819")
-		)
-		(pin "4"
-			(uuid "d95d7b1d-8237-48b2-8544-6deaf8c99e3c")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B14")
 					(unit 1)
 				)
 			)
@@ -9709,7 +9403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 147.32 0)
 			(effects
 				(font
@@ -9786,7 +9480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 161.29 0)
 			(effects
 				(font
@@ -9863,7 +9557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 115.57 0)
 			(effects
 				(font
@@ -10006,7 +9700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -10083,7 +9777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 101.6 0)
 			(effects
 				(font
@@ -10160,7 +9854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 55.88 0)
 			(effects
 				(font
@@ -10188,6 +9882,150 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_1")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 38.1 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b28f488c-59a5-45ac-af2d-de800112f3fd")
+		(property "Reference" "B13"
+			(at 57.404 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "812988b7-fb92-4a80-bd4a-0e0a97def473")
+		)
+		(pin "1"
+			(uuid "18893640-e5cc-4e3a-a43a-7150196296ec")
+		)
+		(pin "3"
+			(uuid "b69bcb84-8652-4d05-b443-9bfc4d9b1a5f")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_10")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 175.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6324bdb-6c89-42fc-a259-26eef0709ccc")
+		(property "Reference" "B22"
+			(at 57.404 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71977896-028b-4620-9c45-ebda497a0cba")
+		)
+		(pin "1"
+			(uuid "a991552c-d71c-4775-9a8b-0667b324535e")
+		)
+		(pin "3"
+			(uuid "be57e19c-04e6-4b91-81f3-d8f4f53496b3")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B22")
 					(unit 1)
 				)
 			)
@@ -10260,90 +10098,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VTC6+T_16")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 175.26 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1c05b04-b78b-4212-8cbb-5361b1441389")
-		(property "Reference" "B22"
-			(at 57.023 176.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 179.324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a5a22fb-604f-4db8-bbd9-69b4a5e2f9e0")
-		)
-		(pin "2"
-			(uuid "d6ba26b7-5726-435c-8c43-a1406e95a19c")
-		)
-		(pin "3"
-			(uuid "ef9a74a0-d24a-42fd-9095-c7f3b5b2276b")
-		)
-		(pin "4"
-			(uuid "d70f948d-f4c9-4ec6-a6e5-bac72ab31690")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 36.83 208.28 270)
 		(mirror x)
@@ -10387,7 +10141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 208.28 0)
 			(effects
 				(font
@@ -10464,7 +10218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -10607,7 +10361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 54.61 0)
 			(effects
 				(font
@@ -10707,90 +10461,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VTC6+T_17")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 144.78 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0989221-7e83-482b-9d79-cf715502998b")
-		(property "Reference" "B20"
-			(at 57.023 146.304 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 148.844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a80c641-b5be-40fc-b13c-d5ac5221ed97")
-		)
-		(pin "2"
-			(uuid "59a3217b-0118-4e55-899a-1861ade7c7ef")
-		)
-		(pin "3"
-			(uuid "55570c90-0390-40cd-b1a2-86da4b3ce307")
-		)
-		(pin "4"
-			(uuid "7e606428-7a18-4a47-954e-71f2cf235544")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 68.58 29.21 0)
 		(mirror y)
@@ -10837,7 +10507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 68.58 29.21 0)
 			(effects
 				(font
@@ -10865,90 +10535,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_11")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 114.3 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6075713-866d-4d28-9d36-4ff359fa671c")
-		(property "Reference" "B18"
-			(at 57.023 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aae7d5b4-8339-4263-82bf-2312d6759d3f")
-		)
-		(pin "2"
-			(uuid "590fdde2-4836-4aed-8d34-2c5113d26d20")
-		)
-		(pin "3"
-			(uuid "428e3496-66e3-42f0-bf04-f1c9eced29d8")
-		)
-		(pin "4"
-			(uuid "f775a8cf-57ca-464f-9876-7b73ad827bf5")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B18")
 					(unit 1)
 				)
 			)
@@ -11021,6 +10607,78 @@
 		)
 	)
 	(symbol
+		(lib_name "VTC6+T-single_4")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d82d11bb-227e-4af8-bcc0-04a11068ff3c")
+		(property "Reference" "B16"
+			(at 57.404 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a7b6bcd-bce6-4ba7-977b-db4d793a321d")
+		)
+		(pin "1"
+			(uuid "f7d61e6f-1c3e-43c1-8e5e-f4a42034bf57")
+		)
+		(pin "3"
+			(uuid "526e5476-f234-4052-9c7d-58b40eb3e2d1")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 95.25 111.76 90)
 		(mirror x)
@@ -11066,7 +10724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 111.76 0)
 			(effects
 				(font
@@ -11145,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 66.04 0)
 			(effects
 				(font
@@ -11173,90 +10831,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_6")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 83.82 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5cfd53d-2c0c-46e0-925f-b42b3f97712e")
-		(property "Reference" "B16"
-			(at 57.023 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 57.023 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03a54183-5414-456b-a880-0b0c1e39ec76")
-		)
-		(pin "2"
-			(uuid "aa672703-4c6b-44ad-bc3a-90967923f513")
-		)
-		(pin "3"
-			(uuid "fc43d66a-11b4-4f29-95e1-59d011d7063c")
-		)
-		(pin "4"
-			(uuid "943197a6-f437-4068-b585-5b280a63490e")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B16")
 					(unit 1)
 				)
 			)
@@ -11306,7 +10880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -11383,7 +10957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 191.77 0)
 			(effects
 				(font
@@ -11549,7 +11123,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VTC6+T_10")
 		(lib_id "AERO_Symbols:VTC6+T")
 		(at 55.88 220.98 270)
 		(mirror x)
@@ -11633,34 +11206,34 @@
 		)
 	)
 	(symbol
-		(lib_name "VTC6+T_9")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 55.88 205.74 270)
+		(lib_name "VTC6+T-single_11")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 190.5 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f31e09ac-3ed8-4b07-a6e4-09e88158a19a")
-		(property "Reference" "B24"
-			(at 57.023 207.264 90)
+		(uuid "f3c7cc2d-ec1b-494c-995c-71075f6bcbb9")
+		(property "Reference" "B23"
+			(at 57.404 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VTC6+T"
-			(at 57.023 209.804 90)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 196.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 55.88 205.74 0)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,7 +11242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 205.74 0)
+			(at 55.88 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,39 +11251,27 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 205.74 0)
+			(at 55.88 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" ""
-			(at 55.88 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b6e8c55-f1dd-4ca8-813a-d06559b353ba")
 		)
 		(pin "2"
-			(uuid "3c59d7ec-9d52-471b-81ec-7bb38b35c715")
+			(uuid "687fb64f-74c4-487a-ab5f-508216194435")
+		)
+		(pin "1"
+			(uuid "add43bee-4208-4b19-823c-558149ae5a6d")
 		)
 		(pin "3"
-			(uuid "a644bbc9-356c-4038-b149-def3bb6bfabc")
-		)
-		(pin "4"
-			(uuid "e085148b-639f-4f6b-99ed-312f0d78f3f4")
+			(uuid "b97c5087-5fca-47d0-9bac-bc70f0c3d94b")
 		)
 		(instances
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
-					(reference "B24")
+					(reference "B23")
 					(unit 1)
 				)
 			)
@@ -11762,7 +11323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 203.2 0)
 			(effects
 				(font
@@ -11841,7 +11402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -11869,6 +11430,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
 					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_6")
+		(lib_id "AERO:VTC6+T-single")
+		(at 55.88 114.3 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbeb170e-5247-4e45-8130-b5607c81e49d")
+		(property "Reference" "B18"
+			(at 57.404 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 56.642 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2739e48f-06c3-46d1-bfcd-64fc0b372a3a")
+		)
+		(pin "1"
+			(uuid "e1cae487-eb6c-470d-b38a-b3c2b4424162")
+		)
+		(pin "3"
+			(uuid "38bd4612-d09d-4d5c-8456-37b6a863ab45")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/3a675bcb-ccc0-4c98-bd4c-d3273b99074d"
+					(reference "B18")
 					(unit 1)
 				)
 			)
@@ -11920,7 +11553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 87.63 76.2 0)
 			(effects
 				(font

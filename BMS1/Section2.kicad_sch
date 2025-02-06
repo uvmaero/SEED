@@ -9,8 +9,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B1"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,7 +18,7 @@
 				)
 			)
 			(property "Value" "VTC6+T-single"
-				(at -2.54 2.54 0)
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -84,7 +84,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -7.62 -7.62 90)
 					(length 2.54)
 					(name "T-"
@@ -126,8 +126,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B12"
+				(at -1.524 1.143 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -135,7 +135,7 @@
 				)
 			)
 			(property "Value" "VTC6+T"
-				(at -2.54 2.54 0)
+				(at -4.064 1.143 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -161,6 +161,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -201,7 +210,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -7.62 10.16 270)
 					(length 2.54)
 					(name "-"
@@ -237,7 +246,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at -7.62 -7.62 90)
 					(length 2.54)
 					(name "T-"
@@ -563,1275 +572,27 @@
 				)
 			)
 		)
-		(symbol "GND2_1"
-			(power)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "VTC6+T-single_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+			(property "Reference" "B11"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_10"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_10_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_10_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_11"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_11_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_11_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_12"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_12_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_12_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_13"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_13_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_13_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_2"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_3_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_3_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_4"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_4_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_4_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_5"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_5_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_5_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_6"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_6_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_6_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_7"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_7_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_7_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_8"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_8_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_8_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND2_9"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_9_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_9_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "VTC6+T_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VTC6+T_1"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1858,7 +619,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_1_0_1"
+			(symbol "VTC6+T-single_1_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -1871,7 +632,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_1_1_1"
+			(symbol "VTC6+T-single_1_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -1890,10 +651,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1926,47 +687,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_18"
+		(symbol "VTC6+T-single_10"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B2"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_18"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1993,7 +736,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_18_0_1"
+			(symbol "VTC6+T-single_10_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -2006,7 +749,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_18_1_1"
+			(symbol "VTC6+T-single_10_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -2025,10 +768,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2061,47 +804,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_2"
+		(symbol "VTC6+T-single_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B10"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_2"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2128,7 +853,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_2_0_1"
+			(symbol "VTC6+T-single_2_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -2141,7 +866,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_2_1_1"
+			(symbol "VTC6+T-single_2_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -2160,10 +885,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2196,47 +921,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_20"
+		(symbol "VTC6+T-single_3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B9"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_20"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2263,7 +970,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_20_0_1"
+			(symbol "VTC6+T-single_3_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -2276,7 +983,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_20_1_1"
+			(symbol "VTC6+T-single_3_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -2295,10 +1002,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2331,47 +1038,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_21"
+		(symbol "VTC6+T-single_4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B8"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_21"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2398,7 +1087,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_21_0_1"
+			(symbol "VTC6+T-single_4_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -2411,7 +1100,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_21_1_1"
+			(symbol "VTC6+T-single_4_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -2430,10 +1119,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2466,47 +1155,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_22"
+		(symbol "VTC6+T-single_5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B7"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_22"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2533,7 +1204,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_22_0_1"
+			(symbol "VTC6+T-single_5_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -2546,7 +1217,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_22_1_1"
+			(symbol "VTC6+T-single_5_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -2565,10 +1236,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2601,47 +1272,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_23"
+		(symbol "VTC6+T-single_6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B6"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_23"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2668,7 +1321,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_23_0_1"
+			(symbol "VTC6+T-single_6_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -2681,7 +1334,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_23_1_1"
+			(symbol "VTC6+T-single_6_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -2700,10 +1353,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2736,47 +1389,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_24"
+		(symbol "VTC6+T-single_7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B5"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_24"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2803,7 +1438,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_24_0_1"
+			(symbol "VTC6+T-single_7_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -2816,7 +1451,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_24_1_1"
+			(symbol "VTC6+T-single_7_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -2835,10 +1470,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2871,47 +1506,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_3"
+		(symbol "VTC6+T-single_8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B4"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_3"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2938,7 +1555,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_3_0_1"
+			(symbol "VTC6+T-single_8_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -2951,7 +1568,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_3_1_1"
+			(symbol "VTC6+T-single_8_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -2970,10 +1587,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3006,47 +1623,29 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "VTC6+T_4"
+		(symbol "VTC6+T-single_9"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at -2.54 0 0)
+			(property "Reference" "B3"
+				(at -3.81 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VTC6+T_4"
-				(at -2.54 2.54 0)
+			(property "Value" "VTC6+T-single"
+				(at -5.588 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AERO_Footprints:VTC-6"
+			(property "Footprint" "AERO_Footprints:VTC-6-single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3073,7 +1672,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VTC6+T_4_0_1"
+			(symbol "VTC6+T-single_9_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 5.08 -5.08)
@@ -3086,7 +1685,7 @@
 					)
 				)
 			)
-			(symbol "VTC6+T_4_1_1"
+			(symbol "VTC6+T-single_9_1_1"
 				(pin power_in line
 					(at 2.54 10.16 270)
 					(length 2.54)
@@ -3105,10 +1704,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 10.16 270)
+				(pin power_in line
+					(at -7.62 -7.62 90)
 					(length 2.54)
-					(name "-"
+					(name "T-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3134,24 +1733,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -7.62 90)
-					(length 2.54)
-					(name "T-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3163,9 +1744,9 @@
 		)
 		(symbol "power:GND2"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3213,7 +1794,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3239,8 +1820,8 @@
 			(symbol "GND2_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND2"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3259,14 +1840,14 @@
 		)
 		(symbol "power:VDC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3275,7 +1856,7 @@
 				)
 			)
 			(property "Value" "VDC"
-				(at 0 6.35 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3309,7 +1890,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3359,8 +1940,8 @@
 			(symbol "VDC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VDC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6881,7 +5462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 190.5 0)
 			(effects
 				(font
@@ -6897,6 +5478,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_8")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03ed5bfd-e856-46f5-9ef0-1b5795f7091c")
+		(property "Reference" "B4"
+			(at 70.104 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e836c309-e0c9-43a7-a165-01d54b40a22b")
+		)
+		(pin "1"
+			(uuid "3e6e4603-0a62-4c60-adca-73976f938b69")
+		)
+		(pin "3"
+			(uuid "bba00939-324d-4e25-b1ac-eba1eb1449c4")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
+					(reference "B4")
 					(unit 1)
 				)
 			)
@@ -6946,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -6980,34 +5633,34 @@
 		)
 	)
 	(symbol
-		(lib_name "VTC6+T_4")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 76.2 270)
+		(lib_name "VTC6+T-single_4")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 152.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "057f0d75-9ec3-4582-b3d1-b773d4d43290")
-		(property "Reference" "B3"
-			(at 69.723 77.724 90)
+		(uuid "093ce5fc-a3ed-441a-be9c-3ea2d784a58b")
+		(property "Reference" "B8"
+			(at 70.104 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VTC6+T"
-			(at 69.723 80.264 90)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 76.2 0)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +5669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 76.2 0)
+			(at 68.58 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,46 +5678,33 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 76.2 0)
+			(at 68.58 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" ""
-			(at 68.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a64a4e2-bbf9-4bfc-a6fa-39a8c424fa4d")
 		)
 		(pin "2"
-			(uuid "b9edf698-6abf-471a-80e3-0950003824e3")
+			(uuid "967cbdfc-14bb-44d6-b269-9289f8aa745c")
+		)
+		(pin "1"
+			(uuid "74ac9bad-6676-4363-b4e5-5f7891480794")
 		)
 		(pin "3"
-			(uuid "2cc2a6c0-afbc-4066-9e18-2aa8f0c9184a")
-		)
-		(pin "4"
-			(uuid "41df49ae-b83a-4381-85bf-d96f9eb63462")
+			(uuid "0fa80697-6065-484f-858e-5c2a41a0a7c7")
 		)
 		(instances
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B3")
+					(reference "B8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND2_13")
 		(lib_id "power:GND2")
 		(at 58.42 160.02 0)
 		(mirror y)
@@ -7109,7 +5749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 160.02 0)
 			(effects
 				(font
@@ -7174,7 +5814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 63.5 0)
 			(effects
 				(font
@@ -7253,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -7332,7 +5972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 38.1 0)
 			(effects
 				(font
@@ -7366,7 +6006,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_5")
 		(lib_id "power:GND2")
 		(at 58.42 114.3 0)
 		(mirror y)
@@ -7411,7 +6050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 114.3 0)
 			(effects
 				(font
@@ -7478,7 +6117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -7557,7 +6196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 102.87 53.34 0)
 			(effects
 				(font
@@ -7585,90 +6224,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_2")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 45.72 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f956e4d-ed92-43d6-b0a0-9e5f32a672f9")
-		(property "Reference" "B1"
-			(at 69.723 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 69.723 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb3402b9-7942-4db4-a222-5d6b83c9c550")
-		)
-		(pin "2"
-			(uuid "b1287d1a-4b63-4c77-a562-1614ab8af251")
-		)
-		(pin "3"
-			(uuid "909c5fb8-acb4-4702-9766-e3fa9bea9bab")
-		)
-		(pin "4"
-			(uuid "b61d4f69-9717-4826-a007-eaae50d2a442")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -7718,7 +6273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 109.22 0)
 			(effects
 				(font
@@ -7746,6 +6301,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_5")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 137.16 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "292ae93c-372c-420a-80b3-2e08b84a4764")
+		(property "Reference" "B7"
+			(at 70.104 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84219163-c41b-4ab5-95bb-8763327bb1de")
+		)
+		(pin "1"
+			(uuid "0df1db1e-962b-42b3-b1c5-d6f2bbb7b854")
+		)
+		(pin "3"
+			(uuid "1050b4e8-7b46-46cc-9e83-231bb0a3e271")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
+					(reference "B7")
 					(unit 1)
 				)
 			)
@@ -7797,7 +6424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 149.86 0)
 			(effects
 				(font
@@ -7825,90 +6452,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_21")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 167.64 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ba2de17-6598-456a-bc67-f8d1ec1f78d7")
-		(property "Reference" "B9"
-			(at 69.723 169.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 69.723 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa20963c-6e09-436e-ad0f-bcedd308e55e")
-		)
-		(pin "2"
-			(uuid "bcc6a97d-8899-4266-b154-0bd5a3bfebdb")
-		)
-		(pin "3"
-			(uuid "359769fe-46cb-4b98-9441-7fb0c8fa0447")
-		)
-		(pin "4"
-			(uuid "acbf194d-67eb-49f7-bec3-04dae6fff3ea")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B9")
 					(unit 1)
 				)
 			)
@@ -7959,7 +6502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 81.28 34.29 0)
 			(effects
 				(font
@@ -8036,7 +6579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 48.26 0)
 			(effects
 				(font
@@ -8115,7 +6658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 110.49 220.98 0)
 			(effects
 				(font
@@ -8192,7 +6735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -8226,7 +6769,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_6")
 		(lib_id "power:GND2")
 		(at 58.42 175.26 0)
 		(mirror y)
@@ -8271,7 +6813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 175.26 0)
 			(effects
 				(font
@@ -8287,90 +6829,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_24")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 106.68 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3aa4d7fb-dfbb-43ff-a439-d377f54b6f55")
-		(property "Reference" "B5"
-			(at 69.723 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 69.723 110.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e890cbf-f405-415e-ad6c-3b63bb352fbf")
-		)
-		(pin "2"
-			(uuid "63395a2d-208d-4fc3-aa71-831fd920eafd")
-		)
-		(pin "3"
-			(uuid "7d6bc40b-2215-41f3-80dd-8c413a5bb480")
-		)
-		(pin "4"
-			(uuid "cf1b5647-2559-438e-ac81-af90f0d434d4")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B5")
 					(unit 1)
 				)
 			)
@@ -8422,7 +6880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 73.66 0)
 			(effects
 				(font
@@ -8584,7 +7042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 129.54 0)
 			(effects
 				(font
@@ -8663,7 +7121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 43.18 0)
 			(effects
 				(font
@@ -8740,7 +7198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -8817,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -8894,7 +7352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 168.91 0)
 			(effects
 				(font
@@ -8922,90 +7380,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_23")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 121.92 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b95da92-f133-4669-bc79-544a60fa8867")
-		(property "Reference" "B6"
-			(at 69.723 123.444 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 69.723 125.984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99b33865-bca3-43f3-b375-9db05b08179e")
-		)
-		(pin "2"
-			(uuid "94c653cb-a019-41a5-bb26-b8ce5c21a2b1")
-		)
-		(pin "3"
-			(uuid "dd4ed419-ff82-4b1e-97c1-67a5dbc96cf2")
-		)
-		(pin "4"
-			(uuid "cba493a6-8031-41fe-bf8f-7d041d9d58be")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B6")
 					(unit 1)
 				)
 			)
@@ -9055,7 +7429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 139.7 0)
 			(effects
 				(font
@@ -9089,7 +7463,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_9")
 		(lib_id "power:GND2")
 		(at 58.42 53.34 0)
 		(mirror y)
@@ -9134,7 +7507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 53.34 0)
 			(effects
 				(font
@@ -9150,6 +7523,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_3")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 167.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f69d648-4359-4e48-b264-5adcf6303c3d")
+		(property "Reference" "B9"
+			(at 70.104 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dad8a8be-81fb-4593-8b14-42b5e30d613e")
+		)
+		(pin "1"
+			(uuid "f78a4ab6-822d-458b-bd25-d3ccfa970873")
+		)
+		(pin "3"
+			(uuid "18c622b9-0625-4bde-90de-fd738f4dc4da")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
+					(reference "B9")
 					(unit 1)
 				)
 			)
@@ -9199,7 +7644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 77.47 0)
 			(effects
 				(font
@@ -9227,6 +7672,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_10")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 60.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a2c87fc-a50c-43d4-82d7-29186064b4b7")
+		(property "Reference" "B2"
+			(at 70.104 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e119500c-1e00-4279-82ef-ee675e91393b")
+		)
+		(pin "1"
+			(uuid "9a1f07ba-bea9-46b0-a27e-a464c7ad84a6")
+		)
+		(pin "3"
+			(uuid "b6a0d663-c999-40dd-b6ba-5ee144e32034")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -9278,7 +7795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 160.02 0)
 			(effects
 				(font
@@ -9355,7 +7872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 153.67 0)
 			(effects
 				(font
@@ -9433,7 +7950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 163.83 58.42 0)
 			(effects
 				(font
@@ -9510,7 +8027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 184.15 0)
 			(effects
 				(font
@@ -9544,7 +8061,149 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_8")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 45.72 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68b54028-46bd-43a5-b8cc-1e1f028bd375")
+		(property "Reference" "B1"
+			(at 70.104 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f732f520-87b2-4fc4-b4c8-8289d0d7f5da")
+		)
+		(pin "1"
+			(uuid "333d5b64-fd92-46aa-92fb-06b5471e1336")
+		)
+		(pin "3"
+			(uuid "d5638e6f-4d49-4c3e-be18-f068bc6b6cbe")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_2")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 182.88 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a6e5868-06d8-4e5d-ae04-960238e6ebe7")
+		(property "Reference" "B10"
+			(at 70.104 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1b310ca-ea2c-4cf5-827f-4990e837e0ba")
+		)
+		(pin "1"
+			(uuid "84fd036c-1a7b-4090-bd78-6ded4bcdce2b")
+		)
+		(pin "3"
+			(uuid "bbebde33-ff93-4afd-86ff-05c93487fadc")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
+					(reference "B10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 81.28 223.52 0)
 		(mirror y)
@@ -9590,7 +8249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 81.28 223.52 0)
 			(effects
 				(font
@@ -9655,7 +8314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 199.39 0)
 			(effects
 				(font
@@ -9734,7 +8393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 104.14 0)
 			(effects
 				(font
@@ -9768,7 +8427,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_10")
 		(lib_id "power:GND2")
 		(at 58.42 83.82 0)
 		(mirror y)
@@ -9813,7 +8471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 83.82 0)
 			(effects
 				(font
@@ -9878,7 +8536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 138.43 0)
 			(effects
 				(font
@@ -9957,7 +8615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 83.82 0)
 			(effects
 				(font
@@ -10036,7 +8694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 110.49 165.1 0)
 			(effects
 				(font
@@ -10070,7 +8728,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_7")
 		(lib_id "power:GND2")
 		(at 58.42 99.06 0)
 		(mirror y)
@@ -10115,7 +8772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 99.06 0)
 			(effects
 				(font
@@ -10180,7 +8837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 185.42 0)
 			(effects
 				(font
@@ -10259,7 +8916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 180.34 0)
 			(effects
 				(font
@@ -10338,7 +8995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 144.78 0)
 			(effects
 				(font
@@ -10366,6 +9023,78 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VTC6+T-single_9")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92d3d2fb-999d-4395-a216-8a3b26e1e697")
+		(property "Reference" "B3"
+			(at 70.104 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebbc7cb7-29e0-422b-b0eb-c9c9ff89e01a")
+		)
+		(pin "1"
+			(uuid "469d1254-c24e-476e-9c4d-b93f11fa6716")
+		)
+		(pin "3"
+			(uuid "2f728a87-ea61-4397-9cb0-30a8e800843f")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
+					(reference "B3")
 					(unit 1)
 				)
 			)
@@ -10417,7 +9146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 175.26 0)
 			(effects
 				(font
@@ -10451,7 +9180,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_11")
 		(lib_id "power:GND2")
 		(at 58.42 175.26 0)
 		(mirror y)
@@ -10496,7 +9224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 175.26 0)
 			(effects
 				(font
@@ -10563,7 +9291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 68.58 0)
 			(effects
 				(font
@@ -10642,7 +9370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 58.42 0)
 			(effects
 				(font
@@ -10720,7 +9448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
 			(at 81.28 30.48 0)
 			(effects
 				(font
@@ -10742,7 +9470,78 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_12")
+		(lib_name "VTC6+T-single_7")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 106.68 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a21f7bb7-2690-4335-99a8-7a4a24229016")
+		(property "Reference" "B5"
+			(at 70.104 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ce29f36-ad01-42ec-93b9-d15dc5a8350d")
+		)
+		(pin "1"
+			(uuid "71e64515-eef6-4370-918d-6a04164d7501")
+		)
+		(pin "3"
+			(uuid "923da18c-ef2f-4058-a3ad-c67d97e5af26")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
+					(reference "B5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 58.42 220.98 0)
 		(mirror y)
@@ -10788,7 +9587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 220.98 0)
 			(effects
 				(font
@@ -10810,7 +9609,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_4")
 		(lib_id "power:GND2")
 		(at 58.42 129.54 0)
 		(mirror y)
@@ -10855,7 +9653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -10922,7 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 110.49 210.82 0)
 			(effects
 				(font
@@ -10956,6 +9754,7 @@
 		)
 	)
 	(symbol
+		(lib_name "VTC6+T-single_1")
 		(lib_id "AERO:VTC6+T-single")
 		(at 68.58 198.12 270)
 		(mirror x)
@@ -11072,7 +9871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 114.3 0)
 			(effects
 				(font
@@ -11149,7 +9948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 46.99 0)
 			(effects
 				(font
@@ -11228,7 +10027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 190.5 0)
 			(effects
 				(font
@@ -11305,7 +10104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 215.9 0)
 			(effects
 				(font
@@ -11382,7 +10181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 200.66 0)
 			(effects
 				(font
@@ -11461,7 +10260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 134.62 0)
 			(effects
 				(font
@@ -11495,7 +10294,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND2_3")
 		(lib_id "power:GND2")
 		(at 58.42 205.74 0)
 		(mirror y)
@@ -11540,7 +10338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 205.74 0)
 			(effects
 				(font
@@ -11607,7 +10405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 195.58 0)
 			(effects
 				(font
@@ -11684,7 +10482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -11761,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 93.98 0)
 			(effects
 				(font
@@ -11840,7 +10638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 205.74 0)
 			(effects
 				(font
@@ -11868,90 +10666,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_1")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 60.96 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf8c1657-5143-468d-9275-2179de40623c")
-		(property "Reference" "B2"
-			(at 69.723 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 69.723 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69c6985b-b3fc-4e64-8548-b5c24dde56c2")
-		)
-		(pin "2"
-			(uuid "11d140fe-31cb-4bb6-a8e3-96707e22aaad")
-		)
-		(pin "3"
-			(uuid "934aa580-ed30-435e-878b-962c3d312ce9")
-		)
-		(pin "4"
-			(uuid "8b8be1e0-3b99-4ded-8ce1-f44be08915dc")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -12001,7 +10715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 170.18 0)
 			(effects
 				(font
@@ -12078,7 +10792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 154.94 0)
 			(effects
 				(font
@@ -12112,34 +10826,34 @@
 		)
 	)
 	(symbol
-		(lib_name "VTC6+T_3")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 91.44 270)
+		(lib_name "VTC6+T-single_6")
+		(lib_id "AERO:VTC6+T-single")
+		(at 68.58 121.92 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0962a9b-4911-48fd-ba2b-785cb9f6fb3c")
-		(property "Reference" "B4"
-			(at 69.723 92.964 90)
+		(uuid "e28df41f-6942-482c-a4b7-bdb7c1b4d33c")
+		(property "Reference" "B6"
+			(at 70.104 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VTC6+T"
-			(at 69.723 95.504 90)
+		(property "Value" "VTC6+T-single"
+			(at 69.342 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 91.44 0)
+		(property "Footprint" "AERO_Footprints:VTC-6-single"
+			(at 68.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +10862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 91.44 0)
+			(at 68.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,39 +10871,27 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 91.44 0)
+			(at 68.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" ""
-			(at 68.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29a254cc-d256-4539-a7b9-681137f7146a")
 		)
 		(pin "2"
-			(uuid "dc334393-526e-4a7c-b11c-9e4a6b26a0bb")
+			(uuid "36d707b5-44b8-45ae-abaf-67fa60e00b38")
+		)
+		(pin "1"
+			(uuid "4331a609-ddc8-441b-8f6c-551dbe20e2b0")
 		)
 		(pin "3"
-			(uuid "31aa5252-8164-4af6-84f4-79519f6296d4")
-		)
-		(pin "4"
-			(uuid "1485c8aa-7691-4b1b-92f4-db276073f00c")
+			(uuid "3f78911a-04b5-496b-91ea-ea7eed6a4157")
 		)
 		(instances
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B4")
+					(reference "B6")
 					(unit 1)
 				)
 			)
@@ -12239,7 +10941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 124.46 0)
 			(effects
 				(font
@@ -12267,90 +10969,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VTC6+T_22")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 152.4 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1153824-5214-4fd0-b2e9-75f5fdbc7442")
-		(property "Reference" "B8"
-			(at 69.723 153.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 69.723 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0af11578-75dd-4898-896d-cf90a3f8c9eb")
-		)
-		(pin "2"
-			(uuid "1292f602-d5c5-4d68-bdd0-626d91301bd4")
-		)
-		(pin "3"
-			(uuid "03f6bbfb-0f43-4d69-924a-61659a49b08d")
-		)
-		(pin "4"
-			(uuid "dd889f99-6405-4eaf-b218-cd8074b73b76")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B8")
 					(unit 1)
 				)
 			)
@@ -12400,7 +11018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 107.95 0)
 			(effects
 				(font
@@ -12434,91 +11052,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VTC6+T_20")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 182.88 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f812d2de-1956-4194-8506-71112584fe53")
-		(property "Reference" "B10"
-			(at 69.723 184.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 69.723 186.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa1005ce-a79b-49e4-8ce0-f378a3cc5af3")
-		)
-		(pin "2"
-			(uuid "ba09f42a-37a3-4321-89ce-1890f84cc80b")
-		)
-		(pin "3"
-			(uuid "ae5c66f4-2bdc-439e-9044-2a00d2ce69d4")
-		)
-		(pin "4"
-			(uuid "df299ee2-5a3a-49c0-9a9a-7904c1d2ba7f")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND2_2")
 		(lib_id "power:GND2")
 		(at 58.42 144.78 0)
 		(mirror y)
@@ -12563,7 +11096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 144.78 0)
 			(effects
 				(font
@@ -12630,7 +11163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 119.38 0)
 			(effects
 				(font
@@ -12664,91 +11197,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VTC6+T_18")
-		(lib_id "AERO_Symbols:VTC6+T")
-		(at 68.58 137.16 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9ab2fb7-7e0f-48a5-8baf-db92f5c95c01")
-		(property "Reference" "B7"
-			(at 69.723 138.684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VTC6+T"
-			(at 69.723 141.224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERO_Footprints:VTC-6"
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe3d8045-3ed9-49d9-804c-4c9657a67a1e")
-		)
-		(pin "2"
-			(uuid "f8298090-c2b1-46b2-bf57-a1e1723ae12f")
-		)
-		(pin "3"
-			(uuid "49733d37-8c28-4794-bb21-24285a35d883")
-		)
-		(pin "4"
-			(uuid "0c4e7ec9-e951-4826-9b04-b7dbfd1aec99")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277/23d0f5f8-7b1f-402a-a9b6-5a03f2eee3dc"
-					(reference "B7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND2_1")
 		(lib_id "power:GND2")
 		(at 58.42 68.58 0)
 		(mirror y)
@@ -12793,7 +11241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 58.42 68.58 0)
 			(effects
 				(font

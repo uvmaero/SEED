@@ -2267,6 +2267,371 @@
 				)
 			)
 		)
+		(symbol "Choke_Wurth_WE-CNSW_744232090_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L1"
+				(at -1.6511 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Choke_ACT45B-101-2P-TL003"
+				(at 0.8889 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Inductor_SMD:L_CommonMode_Wurth_WE-CNSW-1206"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744232090.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CMC 100UH 150MA 2LN 5.8KOHM SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "744232090"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "common mode choke emi usb"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "L*CommonMode*Wurth*WE*CNSW*1206*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Choke_Wurth_WE-CNSW_744232090_1_1_1"
+				(circle
+					(center -3.048 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -2.54 2.032)
+					(mid -2.032 1.5262)
+					(end -1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -2.032)
+					(mid -2.032 -1.5262)
+					(end -2.54 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 2.032)
+					(mid -1.016 1.5262)
+					(end -0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -2.032)
+					(mid -1.016 -1.5262)
+					(end -1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 2.032)
+					(mid 0 1.5262)
+					(end 0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.508) (xy 2.54 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.032) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.508) (xy -2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -2.032)
+					(mid 0 -1.5262)
+					(end -0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 2.032)
+					(mid 1.016 1.5262)
+					(end 1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 1.016 -1.5262)
+					(end 0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 2.032)
+					(mid 2.032 1.5262)
+					(end 2.54 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.032)
+					(mid 2.032 -1.5262)
+					(end 1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -3050,360 +3415,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Filter:Choke_Wurth_WE-CNSW_744232090"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Choke_Wurth_WE-CNSW_744232090"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Inductor_SMD:L_CommonMode_Wurth_WE-CNSW-1206"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744232090.pdf"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Common mode choke, 370 mA, 125VDC, USB2.0, 111 nH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "common mode choke emi usb"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "L*CommonMode*Wurth*WE*CNSW*1206*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Choke_Wurth_WE-CNSW_744232090_1_1"
-				(circle
-					(center -3.048 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -2.54 2.032)
-					(mid -2.032 1.5262)
-					(end -1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -2.032 -1.5262)
-					(end -2.54 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -1.016 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid -1.016 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid 0 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.508) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 0 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 1.016 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 1.016 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 2.032 1.5262)
-					(end 2.54 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.032)
-					(mid 2.032 -1.5262)
-					(end 1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4604,12 +4615,6 @@
 		(uuid "1ce8f316-364c-4479-bbfe-303905c97018")
 	)
 	(junction
-		(at 27.94 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ceba528-644b-4e28-bec1-f18d19fa2545")
-	)
-	(junction
 		(at 60.96 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4670,12 +4675,6 @@
 		(uuid "4133f183-8a44-46f1-b8a7-69a7a8bdacb4")
 	)
 	(junction
-		(at 33.02 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43bd4fe4-8a19-411d-8095-aab523c7e3f3")
-	)
-	(junction
 		(at 68.58 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4686,6 +4685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "459beb3b-bd5a-40d3-8a81-b0e27c2720fd")
+	)
+	(junction
+		(at 27.94 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a914e47-912e-462e-b045-f7e508b53b39")
 	)
 	(junction
 		(at 45.72 223.52)
@@ -4811,7 +4816,7 @@
 		(at 35.56 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfda3ada-46ab-4dfc-bbcf-6f97b2c012c2")
+		(uuid "bf70f301-99a0-4593-8a69-2a7dbc45cb60")
 	)
 	(junction
 		(at 53.34 182.88)
@@ -6077,13 +6082,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 101.6) (xy 33.02 106.68)
+			(xy 27.9516 116.84) (xy 27.94 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f860c0c-e383-479a-a871-bec66d4054c7")
+		(uuid "1f886baf-4227-40cd-bc91-9f6c0ace1279")
 	)
 	(wire
 		(pts
@@ -6164,6 +6169,16 @@
 			(type default)
 		)
 		(uuid "25efed9d-8ceb-462a-aa19-eb5271d6887f")
+	)
+	(wire
+		(pts
+			(xy 33.02 127) (xy 33.02 101.6945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fba341-f883-44ce-86ea-935ada53d371")
 	)
 	(wire
 		(pts
@@ -6554,6 +6569,16 @@
 			(type default)
 		)
 		(uuid "3f65fcda-7bb0-49d6-b193-041c7d82ca78")
+	)
+	(wire
+		(pts
+			(xy 35.56 91.5345) (xy 33.0316 91.5345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff192f5-1833-427b-a28c-70a50edcf03b")
 	)
 	(wire
 		(pts
@@ -7185,16 +7210,6 @@
 		)
 		(uuid "66509649-a004-4e89-922e-155a844e57a3")
 	)
-	(wire
-		(pts
-			(xy 33.02 106.68) (xy 33.02 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66b34d5b-062e-41e6-bd19-161568608a5a")
-	)
 	(bus
 		(pts
 			(xy 127 218.44) (xy 127 215.9)
@@ -7327,16 +7342,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 101.6) (xy 27.94 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d714e92-ec6b-44a6-aea3-4fb18aa2707b")
-	)
-	(wire
-		(pts
 			(xy 27.94 198.12) (xy 68.58 198.12)
 		)
 		(stroke
@@ -7404,6 +7409,16 @@
 			(type default)
 		)
 		(uuid "727660dc-4c1c-4cca-aeb5-a4d63bf2dbfc")
+	)
+	(wire
+		(pts
+			(xy 27.94 88.9) (xy 27.9516 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7282f602-c445-49ed-b9bd-9e1c0f3174d1")
 	)
 	(wire
 		(pts
@@ -7484,16 +7499,6 @@
 			(type default)
 		)
 		(uuid "76de089a-2dbc-4b3d-9c57-8079451781bf")
-	)
-	(wire
-		(pts
-			(xy 33.02 88.9) (xy 35.56 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76f931a8-15d1-404b-829c-ac91c9dde391")
 	)
 	(wire
 		(pts
@@ -8237,6 +8242,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 88.9) (xy 35.56 91.5345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8f91f5-788c-412b-b74c-640c33f1347b")
+	)
+	(wire
+		(pts
 			(xy 261.62 35.56) (xy 261.62 45.72)
 		)
 		(stroke
@@ -8377,6 +8392,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.9516 101.6945) (xy 27.9516 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52f4750-718f-4666-800e-06168fa38238")
+	)
+	(wire
+		(pts
 			(xy 226.06 162.56) (xy 231.14 162.56)
 		)
 		(stroke
@@ -8494,6 +8519,16 @@
 			(type default)
 		)
 		(uuid "bb1df11c-a67a-4fb4-bc73-ee8b1c708dbc")
+	)
+	(wire
+		(pts
+			(xy 27.9516 88.9) (xy 27.9516 91.5345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc20e22e-259b-422e-8604-c55456791412")
 	)
 	(wire
 		(pts
@@ -8725,16 +8760,6 @@
 		)
 		(uuid "cd124b6a-d9c2-48f4-9f54-ca219d4d06bf")
 	)
-	(wire
-		(pts
-			(xy 27.94 91.44) (xy 27.94 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd575c9-48b6-440f-829b-8bcb9aab92ca")
-	)
 	(bus
 		(pts
 			(xy 109.22 101.6) (xy 109.22 99.06)
@@ -8777,13 +8802,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 91.44) (xy 33.02 88.9)
+			(xy 33.02 101.6945) (xy 33.0316 101.6945)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d034bedd-92c1-4be9-9f9b-93fe9c5cc88d")
+		(uuid "d005c4f6-2dec-4910-af4c-10b5ec994cb5")
 	)
 	(wire
 		(pts
@@ -9524,16 +9549,6 @@
 			(type default)
 		)
 		(uuid "fa774e8c-11c2-4ee5-b602-98266c46c57b")
-	)
-	(wire
-		(pts
-			(xy 33.02 106.68) (xy 35.56 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae92131-7629-423f-8b34-cb259dd17122")
 	)
 	(wire
 		(pts
@@ -14735,6 +14750,92 @@
 		)
 	)
 	(symbol
+		(lib_name "Choke_Wurth_WE-CNSW_744232090_1")
+		(lib_id "Filter:Choke_Wurth_WE-CNSW_744232090")
+		(at 30.4916 96.6145 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d281401-31c3-4309-80d6-091e6e1b895b")
+		(property "Reference" "L2"
+			(at 34.3016 94.9634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Choke_ACT45B-101-2P-TL003"
+			(at 34.3016 97.5034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AERO_Footprints:ACT45B-101-2P-TL003_TDK_new"
+			(at 20.3316 96.6145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744232090.pdf"
+			(at 22.8716 96.6145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CMC 100UH 150MA 2LN 5.8KOHM SMD"
+			(at 30.4916 96.6145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "744232090"
+			(at 30.4916 96.6145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b845ce09-568f-49e7-8174-7e0f4b720d99")
+		)
+		(pin "2"
+			(uuid "4b7cdcf3-83c2-486a-ad47-35d7e5c9977c")
+		)
+		(pin "3"
+			(uuid "e15b91fe-eb41-4a61-85fe-b67dd0c6210d")
+		)
+		(pin "4"
+			(uuid "2e199068-333a-4c1b-854d-55110180544f")
+		)
+		(instances
+			(project "BMS1"
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 93.98 27.94 0)
 		(unit 1)
@@ -15590,6 +15691,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Choke_Wurth_WE-CNSW_744232090_1")
 		(lib_id "Filter:Choke_Wurth_WE-CNSW_744232090")
 		(at 30.48 213.36 270)
 		(unit 1)
@@ -15608,7 +15710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Choke_Wurth_WE-CNSW_744232090"
+		(property "Value" "Choke_ACT45B-101-2P-TL003"
 			(at 34.29 214.2489 90)
 			(effects
 				(font
@@ -15617,7 +15719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_CommonMode_Wurth_WE-CNSW-1206"
+		(property "Footprint" "AERO_Footprints:ACT45B-101-2P-TL003_TDK_new"
 			(at 20.32 213.36 0)
 			(effects
 				(font
@@ -15635,7 +15737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Common mode choke, 370 mA, 125VDC, USB2.0, 111 nH"
+		(property "Description" "CMC 100UH 150MA 2LN 5.8KOHM SMD"
 			(at 30.48 213.36 0)
 			(effects
 				(font
@@ -16733,91 +16835,6 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Filter:Choke_Wurth_WE-CNSW_744232090")
-		(at 30.48 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8138ef93-4c92-4e87-8216-c124de31fdfe")
-		(property "Reference" "L2"
-			(at 34.29 94.8689 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Choke_Wurth_WE-CNSW_744232090"
-			(at 34.29 97.4089 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_CommonMode_Wurth_WE-CNSW-1206"
-			(at 20.32 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744232090.pdf"
-			(at 22.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Common mode choke, 370 mA, 125VDC, USB2.0, 111 nH"
-			(at 30.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "744232090"
-			(at 30.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0eca010f-46a7-46b3-8dc6-4af6f7ca204e")
-		)
-		(pin "2"
-			(uuid "c2bd0bc8-e297-4075-9d72-24181febb48d")
-		)
-		(pin "3"
-			(uuid "1c42f3f7-add5-4481-bbac-8e067bf88751")
-		)
-		(pin "4"
-			(uuid "0948cdd7-c0cc-4491-a452-fe03e7115e2b")
-		)
-		(instances
-			(project "BMS1"
-				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
-					(reference "L2")
 					(unit 1)
 				)
 			)

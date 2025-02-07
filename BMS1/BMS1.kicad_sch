@@ -15526,7 +15526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
 			(at 31.75 205.74 0)
 			(effects
 				(font
@@ -15544,7 +15544,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CSP0603AN101-WP30300563001-3T"
 			(at 31.75 205.74 0)
 			(effects
 				(font
@@ -17641,7 +17641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
 			(at 107.95 142.24 0)
 			(effects
 				(font
@@ -17659,7 +17659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LED WHITE DIFFUSED 2SMD"
 			(at 107.95 142.24 0)
 			(effects
 				(font
@@ -18629,7 +18629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
 			(at 31.75 88.9 0)
 			(effects
 				(font
@@ -18647,7 +18647,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CSP0603AN101-WP30300563001-3T"
 			(at 31.75 88.9 0)
 			(effects
 				(font
@@ -19887,7 +19887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
 			(at 105.41 27.94 0)
 			(effects
 				(font
@@ -19905,7 +19905,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LED WHITE DIFFUSED 2SMD"
 			(at 105.41 27.94 0)
 			(effects
 				(font
@@ -20961,7 +20961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ESMIT-4180/C"
+		(property "Datasheet" "https://products.sumida.com/products/pdf/CBM5D33_Ver1.0_E.pdf"
 			(at 40.64 238.76 0)
 			(effects
 				(font
@@ -20980,7 +20980,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ESMIT-4180/C"
 			(at 40.64 238.76 0)
 			(effects
 				(font

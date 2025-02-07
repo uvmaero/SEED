@@ -5384,7 +5384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.344 183.896 90)
 			(effects
 				(font
@@ -5530,7 +5530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.344 107.696 90)
 			(effects
 				(font
@@ -5609,7 +5609,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 87.884 168.656 90)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 87.884 214.376 90)
 			(effects
 				(font
@@ -5839,7 +5839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 188.976 90)
 			(effects
 				(font
@@ -5916,7 +5916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 94.996 21.844 90)
 			(effects
 				(font
@@ -5985,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.362 98.298 0)
 			(effects
 				(font
@@ -5993,7 +5993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 104.14 0)
 			(effects
 				(font
@@ -6002,7 +6002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -6020,7 +6020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -6072,7 +6072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 97.536 90)
 			(effects
 				(font
@@ -6223,7 +6223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.964 229.616 90)
 			(effects
 				(font
@@ -6300,7 +6300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 161.544 90)
 			(effects
 				(font
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 70.104 90)
 			(effects
 				(font
@@ -6456,7 +6456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.344 122.936 90)
 			(effects
 				(font
@@ -6673,7 +6673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.344 31.496 90)
 			(effects
 				(font
@@ -6814,7 +6814,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.616 128.778 0)
 			(effects
 				(font
@@ -6822,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 134.62 0)
 			(effects
 				(font
@@ -6831,7 +6831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -6849,7 +6849,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -6972,7 +6972,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 219.456 90)
 			(effects
 				(font
@@ -7051,7 +7051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 82.296 90)
 			(effects
 				(font
@@ -7262,7 +7262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.344 92.456 90)
 			(effects
 				(font
@@ -7331,7 +7331,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.362 37.084 0)
 			(effects
 				(font
@@ -7339,7 +7339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 43.18 0)
 			(effects
 				(font
@@ -7348,7 +7348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 39.37 0)
 			(effects
 				(font
@@ -7366,7 +7366,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 39.37 0)
 			(effects
 				(font
@@ -7480,7 +7480,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 102.87 173.99 0)
 			(effects
 				(font
@@ -7488,7 +7488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 180.34 0)
 			(effects
 				(font
@@ -7497,7 +7497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -7515,7 +7515,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -7567,7 +7567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 128.016 90)
 			(effects
 				(font
@@ -7644,7 +7644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 85.344 90)
 			(effects
 				(font
@@ -7713,7 +7713,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.616 204.978 0)
 			(effects
 				(font
@@ -7721,7 +7721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 210.82 0)
 			(effects
 				(font
@@ -7730,7 +7730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 207.01 0)
 			(effects
 				(font
@@ -7748,7 +7748,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 207.01 0)
 			(effects
 				(font
@@ -7798,7 +7798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 192.024 90)
 			(effects
 				(font
@@ -7877,7 +7877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 87.884 153.416 90)
 			(effects
 				(font
@@ -7956,7 +7956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 51.816 90)
 			(effects
 				(font
@@ -8101,7 +8101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.344 46.736 90)
 			(effects
 				(font
@@ -8246,7 +8246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 158.496 90)
 			(effects
 				(font
@@ -8390,7 +8390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 39.624 90)
 			(effects
 				(font
@@ -8469,7 +8469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.344 199.136 90)
 			(effects
 				(font
@@ -8546,7 +8546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 131.064 90)
 			(effects
 				(font
@@ -8625,7 +8625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.964 143.256 90)
 			(effects
 				(font
@@ -8766,7 +8766,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 103.378 144.018 0)
 			(effects
 				(font
@@ -8774,7 +8774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 149.86 0)
 			(effects
 				(font
@@ -8783,7 +8783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -8801,7 +8801,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -8843,7 +8843,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.362 220.345 0)
 			(effects
 				(font
@@ -8851,7 +8851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 226.06 0)
 			(effects
 				(font
@@ -8860,7 +8860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 222.25 0)
 			(effects
 				(font
@@ -8878,7 +8878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 222.25 0)
 			(effects
 				(font
@@ -8928,7 +8928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 115.824 90)
 			(effects
 				(font
@@ -9005,7 +9005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 222.504 90)
 			(effects
 				(font
@@ -9084,7 +9084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 87.884 61.976 90)
 			(effects
 				(font
@@ -9163,7 +9163,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 173.736 90)
 			(effects
 				(font
@@ -9308,7 +9308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 36.576 90)
 			(effects
 				(font
@@ -9385,7 +9385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 146.304 90)
 			(effects
 				(font
@@ -9454,7 +9454,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 103.124 159.004 0)
 			(effects
 				(font
@@ -9462,7 +9462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 165.1 0)
 			(effects
 				(font
@@ -9471,7 +9471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 161.29 0)
 			(effects
 				(font
@@ -9489,7 +9489,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 161.29 0)
 			(effects
 				(font
@@ -9531,7 +9531,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.362 113.538 0)
 			(effects
 				(font
@@ -9539,7 +9539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.0252 111.76 0)
 			(effects
 				(font
@@ -9548,7 +9548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 115.57 0)
 			(effects
 				(font
@@ -9566,7 +9566,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 115.57 0)
 			(effects
 				(font
@@ -9674,7 +9674,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.108 67.818 0)
 			(effects
 				(font
@@ -9682,7 +9682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 73.66 0)
 			(effects
 				(font
@@ -9691,7 +9691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -9709,7 +9709,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -9759,7 +9759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 100.584 90)
 			(effects
 				(font
@@ -9836,7 +9836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 54.864 90)
 			(effects
 				(font
@@ -10123,7 +10123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 207.264 90)
 			(effects
 				(font
@@ -10192,7 +10192,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.108 83.058 0)
 			(effects
 				(font
@@ -10200,7 +10200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 88.9 0)
 			(effects
 				(font
@@ -10209,7 +10209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -10227,7 +10227,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -10335,7 +10335,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.362 52.324 0)
 			(effects
 				(font
@@ -10343,7 +10343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 58.42 0)
 			(effects
 				(font
@@ -10352,7 +10352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 54.61 0)
 			(effects
 				(font
@@ -10370,7 +10370,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 54.61 0)
 			(effects
 				(font
@@ -10489,7 +10489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.564 29.464 90)
 			(effects
 				(font
@@ -10706,7 +10706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 112.776 90)
 			(effects
 				(font
@@ -10785,7 +10785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 67.056 90)
 			(effects
 				(font
@@ -10862,7 +10862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 176.784 90)
 			(effects
 				(font
@@ -10931,7 +10931,7 @@
 				)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1uF"
 			(at 102.616 189.23 0)
 			(effects
 				(font
@@ -10939,7 +10939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 195.58 0)
 			(effects
 				(font
@@ -10948,7 +10948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
 			(at 99.06 191.77 0)
 			(effects
 				(font
@@ -10966,7 +10966,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AGC0603X7R101-104KXP"
 			(at 99.06 191.77 0)
 			(effects
 				(font
@@ -11305,7 +11305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 204.216 90)
 			(effects
 				(font
@@ -11384,7 +11384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.344 138.176 90)
 			(effects
 				(font
@@ -11535,7 +11535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 87.884 77.216 90)
 			(effects
 				(font

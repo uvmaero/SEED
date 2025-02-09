@@ -1,4 +1,4 @@
-24839024707674017
+24834680910561566
 AERO_Footprints
 1-770966-0
 
@@ -13,13 +13,6 @@ USB - A USB 2.0 Receptacle Connector 4 Position
 0
 6
 5
-AERO_Footprints
-AERO_BMS_Choke
-
-ACT45B-101-2P-TL003 
-0
-4
-4
 AERO_Footprints
 AERO_Logo_10x4mm
 
@@ -118,13 +111,6 @@ CUS-14TB
 0
 12
 6
-AERO_Footprints
-Choke_ACT45B-101-2P-TL003
-
-ACT45B-101-2P-TL003 
-0
-4
-4
 AERO_Footprints
 DCM4623TD2J13D0T70
 
@@ -490,6 +476,13 @@ SK_14D01
 6
 6
 AERO_Footprints
+SOIC-16
+
+
+0
+16
+16
+AERO_Footprints
 SOIC4_CBM4D19_SUM
 
 ESMIT-4180/C 
@@ -727,6 +720,13 @@ VTC-6
 0
 4
 4
+AERO_Footprints
+VTC-6-single
+
+
+0
+3
+3
 AERO_Footprints
 Wire_16AWG
 

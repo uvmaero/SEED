@@ -1,4 +1,4 @@
-24847719374202186
+24834680910561566
 AERO_Footprints
 1-770966-0
 
@@ -13,41 +13,6 @@ USB - A USB 2.0 Receptacle Connector 4 Position
 0
 6
 5
-AERO_Footprints
-ACT45B-101-2P-TL003_TDK
-
-ACT45B-101-2P-TL003 
-0
-4
-4
-AERO_Footprints
-ACT45B-101-2P-TL003_TDK-L
-
-ACT45B-101-2P-TL003 
-0
-4
-4
-AERO_Footprints
-ACT45B-101-2P-TL003_TDK-M
-
-ACT45B-101-2P-TL003 
-0
-4
-4
-AERO_Footprints
-ACT45B-101-2P-TL003_TDK_new
-
-ACT45B-101-2P-TL003 
-0
-4
-4
-AERO_Footprints
-AERO_BMS_Choke
-
-ACT45B-101-2P-TL003 
-0
-4
-4
 AERO_Footprints
 AERO_Logo_10x4mm
 
@@ -146,13 +111,6 @@ CUS-14TB
 0
 12
 6
-AERO_Footprints
-Choke_ACT45B-101-2P-TL003
-
-ACT45B-101-2P-TL003 
-0
-4
-4
 AERO_Footprints
 DCM4623TD2J13D0T70
 
@@ -504,13 +462,6 @@ ROX3SJ10K
 2
 2
 AERO_Footprints
-R_2512_6342Metric
-Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-AERO_Footprints
 Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering
 SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
 SMD SMT ceramic resonator filter
@@ -524,6 +475,13 @@ SK_14D01
 0
 6
 6
+AERO_Footprints
+SOIC-16
+
+
+0
+16
+16
 AERO_Footprints
 SOIC4_CBM4D19_SUM
 
@@ -762,6 +720,13 @@ VTC-6
 0
 4
 4
+AERO_Footprints
+VTC-6-single
+
+
+0
+3
+3
 AERO_Footprints
 Wire_16AWG
 

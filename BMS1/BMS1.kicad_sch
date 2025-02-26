@@ -4609,6 +4609,12 @@
 		)
 	)
 	(junction
+		(at 27.94 190.6104)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "090c4006-169f-402c-80a1-8d17a814d354")
+	)
+	(junction
 		(at 60.96 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4805,6 +4811,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f37c105d-836f-4833-aba2-c1f12781b2cc")
+	)
+	(junction
+		(at 35.56 190.6104)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd2cab17-eb95-40d9-a98d-fe482db04176")
 	)
 	(junction
 		(at 269.24 170.18)
@@ -5822,6 +5834,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 152.4) (xy 35.56 190.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165b2b0e-87d5-42aa-b3c7-097ba8631141")
+	)
+	(wire
+		(pts
 			(xy 66.04 119.38) (xy 66.04 124.46)
 		)
 		(stroke
@@ -5879,6 +5901,16 @@
 			(type default)
 		)
 		(uuid "174d3b8e-2d49-4ddb-ab51-72af2986a635")
+	)
+	(wire
+		(pts
+			(xy 27.94 190.6104) (xy 27.9954 190.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1767209d-1ece-44a2-857b-f91012ec401b")
 	)
 	(wire
 		(pts
@@ -6662,6 +6694,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 144.78) (xy 27.94 190.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab1f1d3-998d-441e-b72a-d871eb462a21")
+	)
+	(wire
+		(pts
 			(xy 78.74 99.06) (xy 106.68 99.06)
 		)
 		(stroke
@@ -7050,6 +7092,16 @@
 		)
 		(uuid "6054aa71-e2fe-4adc-aac0-9f88bfcf7b30")
 	)
+	(wire
+		(pts
+			(xy 35.56 190.6104) (xy 35.6154 190.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d6ff25-8906-4828-9156-c51a24bf19b4")
+	)
 	(polyline
 		(pts
 			(xy 218.44 20.32) (xy 218.44 20.32)
@@ -7262,7 +7314,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 198.12) (xy 68.58 198.12)
+			(xy 27.94 200.66) (xy 68.58 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7532,6 +7584,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 200.66) (xy 68.58 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c17daff-3180-4c61-bbe1-845761ee72c3")
+	)
+	(wire
+		(pts
 			(xy 231.14 40.64) (xy 231.14 43.18)
 		)
 		(stroke
@@ -7669,16 +7731,6 @@
 			(type default)
 		)
 		(uuid "84de2e80-219e-46dd-ab3c-5d6d9187ba20")
-	)
-	(wire
-		(pts
-			(xy 35.56 152.4) (xy 35.56 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84f0e71b-caf2-4bad-865a-0d1b44181a42")
 	)
 	(wire
 		(pts
@@ -8832,6 +8884,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 190.6104) (xy 27.94 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bd39e7-f3c3-4d01-ada6-2a81cef865f6")
+	)
+	(wire
+		(pts
 			(xy 271.78 43.18) (xy 269.24 43.18)
 		)
 		(stroke
@@ -8980,16 +9042,6 @@
 		)
 		(uuid "ddbeb8b3-d765-4c9c-a444-9893e6086fc0")
 	)
-	(wire
-		(pts
-			(xy 27.94 144.78) (xy 27.94 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ded0e42a-cc91-4543-aa8f-6646a737e9c2")
-	)
 	(bus
 		(pts
 			(xy 109.22 83.82) (xy 109.22 81.28)
@@ -8999,6 +9051,16 @@
 			(type default)
 		)
 		(uuid "df52509a-e598-447b-b172-b2f19d731bf7")
+	)
+	(wire
+		(pts
+			(xy 35.56 195.58) (xy 35.56 190.6104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d506e4-b502-4bcb-a951-fdf15ba696d4")
 	)
 	(wire
 		(pts
@@ -9720,16 +9782,6 @@
 			(justify left bottom)
 		)
 		(uuid "c64bdbd0-ce4f-4f93-97fe-f5efd70423ce")
-	)
-	(text "Double check DTEN ISOMD connections in DS\nCheck if pins 63 and 64 need terminating resistor"
-		(exclude_from_sim no)
-		(at 116.84 248.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c80c5ceb-47ae-4fdc-80cf-71c9149702bb")
 	)
 	(text "Isolation"
 		(exclude_from_sim no)
@@ -15661,7 +15713,8 @@
 	(symbol
 		(lib_name "Choke_Wurth_WE-CNSW_744232090_1")
 		(lib_id "Filter:Choke_Wurth_WE-CNSW_744232090")
-		(at 30.48 213.36 270)
+		(at 30.48 213.36 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15669,7 +15722,7 @@
 		(dnp no)
 		(uuid "71e9e155-eead-489a-89e6-346539fa2d6d")
 		(property "Reference" "L1"
-			(at 34.29 211.7089 90)
+			(at 26.67 211.7089 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15678,7 +15731,7 @@
 			)
 		)
 		(property "Value" "Choke_ACT45B-101-2P-TL003"
-			(at 34.29 214.2489 90)
+			(at 26.67 214.2489 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15687,7 +15740,7 @@
 			)
 		)
 		(property "Footprint" "AERO_Footprints:ACT45B-101-2P-TL003_TDK_new"
-			(at 20.32 213.36 0)
+			(at 40.64 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15696,7 +15749,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_automotive_signal_act45b_en.pdf"
-			(at 22.86 213.36 0)
+			(at 38.1 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17581,7 +17634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 107.95 142.24 0)
 			(effects
 				(font
@@ -18054,6 +18107,74 @@
 			(project "BMS1"
 				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 31.8054 190.6104 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9522ef4-2b8d-4364-8816-43e3e67e3c7f")
+		(property "Reference" "R98"
+			(at 31.8054 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 31.8054 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 32.0594 189.5944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
+			(at 31.8054 190.6104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 31.8054 190.6104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c49a9d8-8e8c-4219-92f8-33823c86845d")
+		)
+		(pin "2"
+			(uuid "fba52e34-e78d-4454-89a9-844e38145de2")
+		)
+		(instances
+			(project ""
+				(path "/03933f33-7fdb-43de-9d7d-a565cad8a277"
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -19827,7 +19948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 105.41 27.94 0)
 			(effects
 				(font

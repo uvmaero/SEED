@@ -6808,7 +6808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.344 31.496 90)
 			(effects
 				(font
@@ -11002,7 +11002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 68.58 29.21 0)
 			(effects
 				(font
@@ -11020,7 +11020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-3EKF1000V"
+		(property "MPN" "RC0603FR-07100RL"
 			(at 68.58 29.21 0)
 			(effects
 				(font
@@ -11029,7 +11029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "RMCF0805FT100RCT-ND"
+		(property "Digikey Part Number" "311-100HRCT-ND"
 			(at 68.58 29.21 0)
 			(effects
 				(font

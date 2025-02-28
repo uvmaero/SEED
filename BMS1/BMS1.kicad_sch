@@ -14061,7 +14061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "455-S2B-XH-A-1-ND"
+		(property "Digikey Part Number" "455-B2B-XH-A-ND"
 			(at 30.48 134.62 0)
 			(effects
 				(font
@@ -14756,7 +14756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "455-S2B-XH-A-1-ND"
+		(property "Digikey Part Number" "455-B2B-XH-A-ND"
 			(at 33.02 132.08 0)
 			(effects
 				(font
@@ -17949,7 +17949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d13m8wt86-e.pdf"
 			(at 107.95 142.24 0)
 			(effects
 				(font
@@ -17967,7 +17967,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LED WHITE DIFFUSED 2SMD"
+		(property "MPN" "846-1198-1-ND"
 			(at 107.95 142.24 0)
 			(effects
 				(font
@@ -17976,7 +17976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "1080-CSP0603AN101-WP30300563001-3TCT-ND"
+		(property "Digikey Part Number" "846-1198-1-ND"
 			(at 107.95 142.24 0)
 			(effects
 				(font
@@ -20416,7 +20416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d13m8wt86-e.pdf"
 			(at 105.41 27.94 0)
 			(effects
 				(font
@@ -20434,7 +20434,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LED WHITE DIFFUSED 2SMD"
+		(property "MPN" "846-1198-1-ND"
 			(at 105.41 27.94 0)
 			(effects
 				(font
@@ -20443,7 +20443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "1080-CSP0603AN101-WP30300563001-3TCT-ND"
+		(property "Digikey Part Number" "846-1198-1-ND"
 			(at 105.41 27.94 0)
 			(effects
 				(font

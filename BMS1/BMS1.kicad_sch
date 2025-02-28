@@ -12463,6 +12463,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 243.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e758d611-7841-4b1e-8024-35de7caa028f")
 		)
@@ -12573,6 +12582,15 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
+			(at 57.15 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-1.00KHRCT-ND"
 			(at 57.15 182.88 0)
 			(effects
 				(font
@@ -12724,6 +12742,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "399-C0805C103K5RACTUCT-ND"
+			(at 27.94 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1c66dee-a826-42df-9589-7738fd57eb52")
 		)
@@ -12792,6 +12819,15 @@
 			)
 		)
 		(property "MPN" "ERJ-3EKF1004V"
+			(at 62.23 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "P1.00MHCT-ND"
 			(at 62.23 190.5 0)
 			(effects
 				(font
@@ -12877,6 +12913,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1.00KHRCT-ND"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cf1d11d-67bf-40e4-b5c4-1c47c05ddb49")
 		)
@@ -12927,7 +12972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 275.59 129.54 0)
 			(effects
 				(font
@@ -12945,7 +12990,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 275.59 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 275.59 129.54 0)
 			(effects
 				(font
@@ -13201,7 +13255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 90.17 149.86 0)
 			(effects
 				(font
@@ -13219,7 +13273,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 90.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 90.17 149.86 0)
 			(effects
 				(font
@@ -13296,6 +13359,15 @@
 			)
 		)
 		(property "MPN" "ERJ-3EKF2002V"
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "P20.0KHCT-ND"
 			(at 41.91 104.14 0)
 			(effects
 				(font
@@ -13512,6 +13584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "119866c4-36a9-415c-b5f9-b4edc90c2ae3")
 		)
@@ -13624,6 +13705,15 @@
 			)
 		)
 		(property "MPN" "LTC6812ILWE-1#3ZZTRPBF"
+			(at 81.28 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 81.28 205.74 0)
 			(effects
 				(font
@@ -13881,6 +13971,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "DXT5551P5-13CT-ND"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf3a1320-1e1d-4749-922e-4d8499d0d4cc")
 		)
@@ -13917,7 +14016,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "Conn_01x02_Vertical"
 			(at 33.782 137.16 90)
 			(effects
 				(font
@@ -13962,6 +14061,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "455-S2B-XH-A-1-ND"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01d0c2ef-df40-48f8-b753-1c2db48c5255")
 		)
@@ -13995,7 +14103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "Conn_01x02_Horzontal"
 			(at 26.289 261.874 90)
 			(effects
 				(font
@@ -14032,6 +14140,15 @@
 			)
 		)
 		(property "MPN" "S2B-XH-A-1"
+			(at 33.02 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "455-S2B-XH-A-1-ND"
 			(at 33.02 259.08 0)
 			(effects
 				(font
@@ -14287,7 +14404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -14305,7 +14422,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 267.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -14430,7 +14556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -14448,7 +14574,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 229.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -14534,6 +14669,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1.00KHRCT-ND"
+			(at 34.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1002c8ca-acf5-46f6-982e-cedf5b9b9e24")
 		)
@@ -14567,7 +14711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "Conn_01x02_Vertical"
 			(at 35.306 132.08 90)
 			(effects
 				(font
@@ -14604,6 +14748,15 @@
 			)
 		)
 		(property "MPN" "B2B-XH-A"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "455-S2B-XH-A-1-ND"
 			(at 33.02 132.08 0)
 			(effects
 				(font
@@ -14754,6 +14907,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "1276-1946-1-ND"
+			(at 49.53 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5616254e-b6f1-438e-a68c-35ffc80d23ec")
 		)
@@ -14826,6 +14988,15 @@
 			)
 		)
 		(property "MPN" "ACT45B-101-2P-TL003"
+			(at 30.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "445-3959-1-ND"
 			(at 30.48 96.52 0)
 			(effects
 				(font
@@ -15051,6 +15222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "P330DBCT-ND"
+			(at 119.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74cdf74d-0e9d-4b2a-a830-9cbbac802dfc")
 		)
@@ -15119,6 +15299,15 @@
 			)
 		)
 		(property "MPN" "ERJ-3EKF1004V"
+			(at 49.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "P1.00MHCT-ND"
 			(at 49.53 71.12 0)
 			(effects
 				(font
@@ -15269,6 +15458,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "P20.0KHCT-ND"
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4aa0e60d-762a-4338-bb11-4b877d9ebba3")
 		)
@@ -15337,6 +15535,15 @@
 			)
 		)
 		(property "MPN" "ERJ-3EKF2002V"
+			(at 57.15 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "P20.0KHCT-ND"
 			(at 57.15 228.6 0)
 			(effects
 				(font
@@ -15526,7 +15733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 31.75 205.74 0)
 			(effects
 				(font
@@ -15544,7 +15751,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CSP0603AN101-WP30300563001-3T"
+		(property "MPN" "RMCF0805FT100R"
+			(at 31.75 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RMCF0805FT100RCT-ND"
 			(at 31.75 205.74 0)
 			(effects
 				(font
@@ -15668,7 +15884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 77.47 30.48 0)
 			(effects
 				(font
@@ -15686,7 +15902,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 77.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 77.47 30.48 0)
 			(effects
 				(font
@@ -15767,6 +15992,15 @@
 			)
 		)
 		(property "MPN" "ACT45B-101-2P-TL003"
+			(at 30.48 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "445-3959-1-ND"
 			(at 30.48 213.36 0)
 			(effects
 				(font
@@ -15915,6 +16149,15 @@
 			)
 		)
 		(property "MPN" "CL10B105KP8NNNC"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-1946-1-ND"
 			(at 31.75 33.02 0)
 			(effects
 				(font
@@ -16130,6 +16373,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 289.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11982e4e-dbda-49b3-934c-b8047a6c38c8")
 		)
@@ -16241,6 +16493,15 @@
 			)
 		)
 		(property "MPN" "ADG728BRUZ-REEL7"
+			(at 284.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 284.48 177.8 0)
 			(effects
 				(font
@@ -16434,6 +16695,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 236.22 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55eb61ef-c848-41f9-881f-badc32b3e9d3")
 		)
@@ -16619,6 +16889,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 284.48 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba65353f-1ece-4096-855d-177bf27636e0")
 		)
@@ -16795,6 +17074,15 @@
 			)
 		)
 		(property "MPN" "ADG728BRUZ-REEL7"
+			(at 243.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 243.84 50.8 0)
 			(effects
 				(font
@@ -17356,7 +17644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 227.33 198.12 0)
 			(effects
 				(font
@@ -17374,7 +17662,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 227.33 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 227.33 198.12 0)
 			(effects
 				(font
@@ -17527,6 +17824,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "P330DBCT-ND"
+			(at 114.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61489c42-9b6e-424e-99eb-f5aa0876c9fb")
 		)
@@ -17662,6 +17968,15 @@
 			)
 		)
 		(property "MPN" "LED WHITE DIFFUSED 2SMD"
+			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1080-CSP0603AN101-WP30300563001-3TCT-ND"
 			(at 107.95 142.24 0)
 			(effects
 				(font
@@ -17812,6 +18127,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1.00KHRCT-ND"
+			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c541d94-8ce5-409a-82c1-8cd8193bc386")
 		)
@@ -17880,6 +18204,15 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-1.00KHRCT-ND"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -18031,6 +18364,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "1276-1946-1-ND"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8eec3830-f35c-4ed9-b407-f4632e8c744f")
 		)
@@ -18130,7 +18472,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 31.8054 186.69 90)
 			(effects
 				(font
@@ -18147,7 +18489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 31.8054 190.6104 0)
 			(effects
 				(font
@@ -18157,6 +18499,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 31.8054 190.6104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RMCF0805FT100RCT-ND"
+			(at 31.8054 190.6104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT100R"
 			(at 31.8054 190.6104 0)
 			(effects
 				(font
@@ -18306,6 +18666,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "P20.0KHCT-ND"
+			(at 54.61 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e35e42bd-def8-481e-bb70-bd92810ee537")
 		)
@@ -18375,6 +18744,15 @@
 			)
 		)
 		(property "MPN" "DXT5551P5-13"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "DXT5551P5-13CT-ND"
 			(at 50.8 27.94 0)
 			(effects
 				(font
@@ -18699,7 +19077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4310/CSP0603AN101-WP30300563001-3T_V6_2-26-21.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 30.48 88.9 0)
 			(effects
 				(font
@@ -18717,7 +19095,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CSP0603AN101-WP30300563001-3T"
+		(property "MPN" "RMCF0805FT100R"
+			(at 30.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RMCF0805FT100RCT-ND"
 			(at 30.48 88.9 0)
 			(effects
 				(font
@@ -18802,6 +19189,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "1276-1946-1-ND"
+			(at 59.69 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f25a9b8-df67-4028-a626-87641d496054")
 		)
@@ -18852,7 +19248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 222.25 256.54 0)
 			(effects
 				(font
@@ -18870,7 +19266,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 222.25 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 222.25 256.54 0)
 			(effects
 				(font
@@ -18929,7 +19334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 270.51 256.54 0)
 			(effects
 				(font
@@ -18947,7 +19352,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 270.51 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 270.51 256.54 0)
 			(effects
 				(font
@@ -19026,6 +19440,15 @@
 			)
 		)
 		(property "MPN" "LTC6812ILWE-1#3ZZTRPBF"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 66.04 83.82 0)
 			(effects
 				(font
@@ -19478,6 +19901,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "1276-1946-1-ND"
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28164ad0-d922-45ce-81bc-17d532e1adda")
 		)
@@ -19752,6 +20184,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "1276-1946-1-ND"
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bcfe40b-3a64-4224-b5e6-864faf0c5a60")
 		)
@@ -19830,6 +20271,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "399-C0805C103K5RACTUCT-ND"
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5c61ed5-cbfb-4bda-bc1a-545a337aca54")
 		)
@@ -19880,7 +20330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 275.59 198.12 0)
 			(effects
 				(font
@@ -19898,7 +20348,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 275.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 275.59 198.12 0)
 			(effects
 				(font
@@ -19976,6 +20435,15 @@
 			)
 		)
 		(property "MPN" "LED WHITE DIFFUSED 2SMD"
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1080-CSP0603AN101-WP30300563001-3TCT-ND"
 			(at 105.41 27.94 0)
 			(effects
 				(font
@@ -20251,6 +20719,15 @@
 			)
 		)
 		(property "MPN" "ADG728BRUZ-REEL7"
+			(at 281.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 281.94 53.34 0)
 			(effects
 				(font
@@ -20615,7 +21092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AGC%20Series.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1296/CL10B104KC8NNNC_Spec.pdf"
 			(at 232.41 129.54 0)
 			(effects
 				(font
@@ -20633,7 +21110,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AGC0603X7R101-104KXP"
+		(property "MPN" "CL10B104KC8NNNC"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1276-6807-1-ND"
 			(at 232.41 129.54 0)
 			(effects
 				(font
@@ -20980,6 +21466,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1.00KHRCT-ND"
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eaad64a7-c555-4a47-bfdf-82661d0dc8e0")
 		)
@@ -21051,6 +21546,15 @@
 			)
 		)
 		(property "MPN" "ESMIT-4180/C"
+			(at 40.64 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "308-2379-1-ND"
 			(at 40.64 238.76 0)
 			(effects
 				(font

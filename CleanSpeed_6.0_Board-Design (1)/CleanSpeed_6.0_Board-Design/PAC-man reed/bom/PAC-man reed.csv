@@ -1,0 +1,27 @@
+"null","Sourced","Placed","References","Value","Footprint","Quantity"
+1,"✓","✓","C1, C2","0.01u","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",2
+2,"✓","✓","C3, C4","10u","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",2
+3,"✓","✓","R7, R8, R9, R10","1k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",4
+4,"✓","","R4, R13","2.5K","R_Axial_Power_L48.0mm_W12.5mm_P55.88mm",2
+5,"","","R11, R12",60,"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",2
+6,"","","R2","1.5k","R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical",1
+7,"✓","✓","R5","15k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",1
+8,"","","R14","10k","R_0603_1608Metric",1
+9,"","","R15","2k","R_0603_1608Metric",1
+10,"","","D1","LED","LPA-C011301S-x LED 0805 LIGHT PIPE SINGLE VERT SMD",1
+11,"","","D3","1N4148","D_MiniMELF",1
+12,"","","D4","MMBZxx","SOT-23",1
+13,"","","U2","LT1963AxST-3.3","SOT-223-3_TabPin2",1
+14,"","","IC1, IC2","LTC6820HMS#3ZZPBF","SOP50P490X110-16N",2
+15,"","","JP1, JP2","Fast / Slow","SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels",2
+16,"","","T1, T2","ESMIT-4180_C","SOIC4_CBM4D19_SUM",2
+17,"","","K2","G5NB-1A4-E DC12","RELAY_G5NB-1A DC5_OMR",1
+18,"","","K3","G5V-1","Relay_SPDT_Omron_G5V-1",1
+19,"","","K4","374-1408-5-ND","SHV12",1
+20,"","","K5","S1-12-BDM","S1-12",1
+21,"","","Q2","MMBT2222A","SOT-23",1
+22,"","","J1, J2, J3","Conn_01x01","Hirose_DF63M-1P-3.96DSA_1x01_P3.96mm_Vertical",3
+23,"","","J7, J8","Conn_01x02","JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical",2
+24,"","","J4","Conn_01x14","TE_1-776266-1_14pin_Horizontal",1
+25,"","","J5","Conn_01x02","JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",1
+26,"","","J6","JST PH","JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical",1

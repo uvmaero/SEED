@@ -1,0 +1,28 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+"C1, C2",2,0.01u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"C3, C4",2,10u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+D1,1,LED,LPA-C011301S-x LED 0805 LIGHT PIPE SINGLE VERT SMD,,tht
+D3,1,1N4148,D_MiniMELF,,smt
+D4,1,MMBZxx,SOT-23,,smt
+"IC1, IC2",2,LTC6820HMS#3ZZPBF,SOP50P490X110-16N,,smt
+"J1, J2, J3",3,Conn_01x01,Hirose_DF63M-1P-3.96DSA_1x01_P3.96mm_Vertical,,tht
+J4,1,Conn_01x14,TE_1-776266-1_14pin_Horizontal,,tht
+J5,1,Conn_01x02,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,,tht
+J6,1,JST PH,JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,,tht
+"J7, J8",2,Conn_01x02,JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical,,tht
+"JP1, JP2",2,Fast / Slow,SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels,,tht
+K2,1,G5NB-1A4-E DC12,RELAY_G5NB-1A DC5_OMR,,tht
+K3,1,G5V-1,Relay_SPDT_Omron_G5V-1,,tht
+K4,1,374-1408-5-ND,SHV12,,tht
+K5,1,S1-12-BDM,S1-12,,tht
+Q2,1,MMBT2222A,SOT-23,,smt
+"R10, R7, R8, R9",4,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R11, R12",2,60,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R13,1,2.5k,R_Axial_Power_L48.0mm_W12.5mm_P55.88mm,,tht
+R14,1,10k,R_0603_1608Metric,,smt
+R15,1,2k,R_0603_1608Metric,,smt
+R2,1,1.5k,R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical,,tht
+R4,1,2.5K,R_Axial_Power_L48.0mm_W12.5mm_P55.88mm,,tht
+R5,1,15k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"T1, T2",2,ESMIT-4180_C,SOIC4_CBM4D19_SUM,,smt
+U2,1,LT1963AxST-3.3,SOT-223-3_TabPin2,,smt

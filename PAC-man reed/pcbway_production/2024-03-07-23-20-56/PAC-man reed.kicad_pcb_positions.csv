@@ -1,0 +1,40 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,value,mount_type,place
+143.271498,-124.967499,90.0,bottom,C1,,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,0.01u,smt,True
+143.059498,-116.967499,90.0,bottom,C2,,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,0.01u,smt,True
+150.811997,-107.784999,-90.0,bottom,C3,,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,10u,smt,True
+144.711997,-104.284999,0.0,bottom,C4,,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,10u,smt,True
+185.371997,-71.824999,-90.0,top,D1,,LPA-C011301S-x LED 0805 LIGHT PIPE SINGLE VERT SMD,LED,tht,True
+145.752499,-102.207499,90.0,top,D3,,D_MiniMELF,1N4148,smt,True
+163.761997,-104.734999,180.0,bottom,D4,,SOT-23,MMBZxx,smt,True
+145.976498,-125.202399,0.0,top,IC1,,SOP50P490X110-16N,LTC6820HMS#3ZZPBF,smt,True
+146.276498,-115.667499,0.0,top,IC2,,SOP50P490X110-16N,LTC6820HMS#3ZZPBF,smt,True
+194.411997,-64.034999,-90.0,top,J1,,Hirose_DF63M-1P-3.96DSA_1x01_P3.96mm_Vertical,Conn_01x01,tht,True
+163.511997,-74.084999,-90.0,top,J2,,Hirose_DF63M-1P-3.96DSA_1x01_P3.96mm_Vertical,Conn_01x01,tht,True
+184.665394,-89.657516,0.0,top,J3,,Hirose_DF63M-1P-3.96DSA_1x01_P3.96mm_Vertical,Conn_01x01,tht,True
+135.111997,-113.134999,-90.0,top,J4,,TE_1-776266-1_14pin_Horizontal,Conn_01x14,tht,True
+168.134499,-93.2675,90.0,top,J5,,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,Conn_01x02,tht,True
+167.6,-105.85,90.0,top,J6,,JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,JST PH,tht,True
+168.352498,-124.167499,-90.0,top,J7,,JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical,Conn_01x02,tht,True
+168.352498,-113.367499,-90.0,top,J8,,JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical,Conn_01x02,tht,True
+146.109498,-125.817499,90.0,bottom,JP1,,SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels,Fast / Slow,tht,True
+145.459498,-118.917499,90.0,bottom,JP2,,SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels,Fast / Slow,tht,True
+162.159498,-89.917499,90.0,top,K2,,RELAY_G5NB-1A DC5_OMR,G5NB-1A4-E DC12,tht,True
+149.592498,-104.507501,90.0,top,K3,,Relay_SPDT_Omron_G5V-1,G5V-1,tht,True
+184.51879,-107.647516,-90.0,top,K4,,SHV12,374-1408-5-ND,tht,True
+142.968797,-74.084999,180.0,top,K5,,S1-12,S1-12-BDM,tht,True
+154.361997,-113.534999,90.0,bottom,Q2,,SOT-23,MMBT2222A,smt,True
+150.809498,-118.829999,-90.0,bottom,R10,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1k,smt,True
+153.645498,-125.352399,-90.0,top,R11,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,60,smt,True
+153.452498,-114.617499,-90.0,top,R12,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,60,smt,True
+183.901997,-63.884999,180.0,top,R13,,R_Axial_Power_L48.0mm_W12.5mm_P55.88mm,2.5k,tht,True
+155.223496,-117.503099,-90.0,bottom,R14,,R_0603_1608Metric,10k,smt,True
+155.223496,-120.6531,90.0,bottom,R15,,R_0603_1608Metric,2k,smt,True
+172.601997,-74.234999,0.0,top,R2,,R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical,1.5k,tht,True
+194.711997,-73.244999,-90.0,top,R4,,R_Axial_Power_L48.0mm_W12.5mm_P55.88mm,2.5K,tht,True
+163.761997,-101.784999,0.0,bottom,R5,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,15k,smt,True
+149.561498,-123.004999,-90.0,bottom,R7,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1k,smt,True
+149.548998,-126.504999,-90.0,bottom,R8,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1k,smt,True
+149.109498,-118.817499,-90.0,bottom,R9,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1k,smt,True
+160.295498,-125.187299,0.0,top,T1,,SOIC4_CBM4D19_SUM,ESMIT-4180_C,smt,True
+160.202498,-114.452399,0.0,top,T2,,SOIC4_CBM4D19_SUM,ESMIT-4180_C,smt,True
+146.061997,-109.984999,-90.0,bottom,U2,,SOT-223-3_TabPin2,LT1963AxST-3.3,smt,True
